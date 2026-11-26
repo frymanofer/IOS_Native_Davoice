@@ -38,9 +38,8 @@ routing; use a phone for the voice.
 open CarAgent.xcodeproj          # select your team under Signing & Capabilities, then Run
 ```
 
-- **ONNX Runtime.** For now the project uses a checkout of [DaVoiceOnnxRuntime](https://github.com/frymanofer/DaVoiceOnnxRuntime)
-  next to this repository (`../../DaVoiceOnnxRuntime`). Once its Swift package is published, `DV_ORT=remote python3 tools/make_project.py`
-  switches the project to the GitHub package.
+- **ONNX Runtime** comes from the [DaVoiceOnnxRuntime](https://github.com/frymanofer/DaVoiceOnnxRuntime) Swift package (1.31.0); Xcode
+  downloads it on the first build. `DV_ORT=local python3 tools/make_project.py` uses a checkout next to this repository instead.
 - **Storage.** About 1.2 GB free: one voice (170 MB), the model (382 MB) and its pre-warmed start-up state (430 MB).
 - **Debug builds** show suggestion chips and a text box under the microphone line, so you can try the agent without speaking.
 - The app ships a temporary DaVoice demo license (`App/VoiceConfig.swift`). For your own key, contact info@davoice.io.

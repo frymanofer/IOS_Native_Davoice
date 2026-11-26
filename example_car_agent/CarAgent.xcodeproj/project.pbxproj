@@ -1130,7 +1130,7 @@
 			);
 			mainGroup = "39FB67E3E9FEF43F3D101639";
 			packageReferences = (
-				B8D8D684C68C7C063D12F838,
+				F1BAE0C81C09F311AA12A7CC,
 			);
 			productRefGroup = D5D5938D3BCEF9EF8661F1BF;
 			projectDirPath = "";
@@ -1426,17 +1426,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		B8D8D684C68C7C063D12F838 = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../DaVoiceOnnxRuntime;
+/* Begin XCRemoteSwiftPackageReference section */
+		F1BAE0C81C09F311AA12A7CC = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frymanofer/DaVoiceOnnxRuntime";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = "1.31.0";
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		46512A526FC86DE830EB6D0A = {
 			isa = XCSwiftPackageProductDependency;
-			package = B8D8D684C68C7C063D12F838;
+			package = F1BAE0C81C09F311AA12A7CC;
 			productName = DaVoiceOnnxRuntime;
 		};
 /* End XCSwiftPackageProductDependency section */
