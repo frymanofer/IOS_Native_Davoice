@@ -345,6 +345,9 @@ SWIFT_CLASS("_TtC10DavoiceLLM12DavoiceAgent")
 SWIFT_CLASS("_TtC10DavoiceLLM14LicenseManager")
 @interface LicenseManager : NSObject
 + (BOOL)isLicenseValidWithLicenseKey:(NSString * _Nonnull)licenseKey SWIFT_WARN_UNUSED_RESULT;
+/// product: “ww”, “sv”, “stt”, “tts” or “llm” (nil = any). New-format keys must include it; old-format keys
+/// include every product and work until 2027-12-31 (UTC).
++ (BOOL)isLicenseValidWithLicenseKey:(NSString * _Nonnull)licenseKey product:(NSString * _Nullable)product SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -808,6 +811,9 @@ SWIFT_CLASS("_TtC10DavoiceLLM12DavoiceAgent")
 SWIFT_CLASS("_TtC10DavoiceLLM14LicenseManager")
 @interface LicenseManager : NSObject
 + (BOOL)isLicenseValidWithLicenseKey:(NSString * _Nonnull)licenseKey SWIFT_WARN_UNUSED_RESULT;
+/// product: “ww”, “sv”, “stt”, “tts” or “llm” (nil = any). New-format keys must include it; old-format keys
+/// include every product and work until 2027-12-31 (UTC).
++ (BOOL)isLicenseValidWithLicenseKey:(NSString * _Nonnull)licenseKey product:(NSString * _Nullable)product SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

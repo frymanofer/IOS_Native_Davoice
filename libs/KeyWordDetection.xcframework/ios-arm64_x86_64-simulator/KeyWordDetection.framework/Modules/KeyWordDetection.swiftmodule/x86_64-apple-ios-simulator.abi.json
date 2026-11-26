@@ -13043,2888 +13043,2916 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
       "offset": 924,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
       "offset": 960,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
       "offset": 999,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
       "offset": 1054,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "FloatLiteral",
       "offset": 1113,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "StringLiteral",
       "offset": 4060,
       "length": 39,
       "value": "\"com.davoice.wakeword.ce.sessionEvents\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "FloatLiteral",
       "offset": 4240,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "Array",
       "offset": 4310,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 4345,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 4386,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 4425,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "IntegerLiteral",
       "offset": 4852,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "FloatLiteral",
       "offset": 4904,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 14593,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 14651,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 14713,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapperCE.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapperCE.swift",
       "kind": "BooleanLiteral",
       "offset": 14777,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AppStateTracker.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AppStateTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 845,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "Dictionary",
       "offset": 8059,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16085,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16096,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16106,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16116,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16127,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 16138,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 17028,
       "length": 6,
       "value": "16000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 17090,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
       "offset": 17148,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
       "offset": 17220,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
       "offset": 17292,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
       "offset": 17354,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
       "offset": 17432,
       "length": 4,
       "value": "0.34"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 17730,
+      "offset": 17712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 17816,
+      "offset": 17798,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 17916,
+      "offset": 17898,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 18016,
+      "offset": 17998,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 18193,
+      "offset": 18175,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 18237,
+      "offset": 18219,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 18278,
+      "offset": 18260,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 18320,
+      "offset": 18302,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 21787,
+      "offset": 21769,
       "length": 6,
       "value": "16000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 21821,
+      "offset": 21803,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 21845,
+      "offset": 21827,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 21882,
+      "offset": 21864,
       "length": 4,
       "value": "25.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 21918,
+      "offset": 21900,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 21944,
+      "offset": 21926,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 21984,
+      "offset": 21966,
       "length": 4,
       "value": "0.35"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 22024,
+      "offset": 22006,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 22056,
+      "offset": 22038,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 22091,
+      "offset": 22073,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 22128,
+      "offset": 22110,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 22167,
+      "offset": 22149,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 22205,
+      "offset": 22187,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 22240,
+      "offset": 22222,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 22276,
+      "offset": 22258,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "Array",
-      "offset": 24795,
+      "offset": 24777,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "Array",
-      "offset": 24835,
+      "offset": 24817,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 27720,
+      "offset": 27702,
       "length": 9,
       "value": "\"default\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 34468,
+      "offset": 34450,
       "length": 8,
       "value": "\"Engine\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "Array",
-      "offset": 34926,
+      "offset": 34908,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 35031,
+      "offset": 35013,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 35073,
+      "offset": 35055,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 35124,
+      "offset": 35106,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 44749,
+      "offset": 44731,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 47198,
+      "offset": 47180,
       "length": 9,
       "value": "\"MicCtrl\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 47431,
+      "offset": 47413,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 47478,
+      "offset": 47460,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 47585,
+      "offset": 47567,
       "length": 15,
       "value": "\"sv.mic.ctrl.q\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 47748,
+      "offset": 47730,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 47933,
+      "offset": 47915,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 47980,
+      "offset": 47962,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 48029,
+      "offset": 48011,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 48074,
+      "offset": 48056,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 49589,
+      "offset": 49571,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 49606,
+      "offset": 49588,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 53131,
+      "offset": 53113,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 54592,
+      "offset": 54574,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 54658,
+      "offset": 54640,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 54725,
+      "offset": 54707,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 57475,
+      "offset": 57457,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 57517,
+      "offset": 57499,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 62795,
+      "offset": 62777,
       "length": 15,
       "value": "\"EnrollBuilder\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 63170,
+      "offset": 63152,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 63267,
+      "offset": 63249,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 63464,
+      "offset": 63446,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "BooleanLiteral",
-      "offset": 64151,
+      "offset": 64133,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 72452,
+      "offset": 72434,
       "length": 7,
       "value": "\"Feats\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 74667,
+      "offset": 74649,
       "length": 4,
       "value": "-1.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 74677,
+      "offset": 74659,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 74768,
+      "offset": 74750,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 74834,
+      "offset": 74816,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 74894,
+      "offset": 74876,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 74949,
+      "offset": 74931,
       "length": 16,
       "value": "\"numFrames <= 0\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75005,
+      "offset": 74987,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75009,
+      "offset": 74991,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75050,
+      "offset": 75032,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75138,
+      "offset": 75120,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75153,
+      "offset": 75135,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75194,
+      "offset": 75176,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75209,
+      "offset": 75191,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75316,
+      "offset": 75298,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75382,
+      "offset": 75364,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75396,
+      "offset": 75378,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75435,
+      "offset": 75417,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75622,
+      "offset": 75604,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75736,
+      "offset": 75718,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75810,
+      "offset": 75792,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75824,
+      "offset": 75806,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 75833,
+      "offset": 75815,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76111,
+      "offset": 76093,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76160,
+      "offset": 76142,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76171,
+      "offset": 76153,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76191,
+      "offset": 76173,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76271,
+      "offset": 76253,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76554,
+      "offset": 76536,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76591,
+      "offset": 76573,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76608,
+      "offset": 76590,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76625,
+      "offset": 76607,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76653,
+      "offset": 76635,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76682,
+      "offset": 76664,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76697,
+      "offset": 76679,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76895,
+      "offset": 76877,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76912,
+      "offset": 76894,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76929,
+      "offset": 76911,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 76990,
+      "offset": 76972,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77071,
+      "offset": 77053,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77107,
+      "offset": 77089,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77147,
+      "offset": 77129,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 77203,
+      "offset": 77185,
       "length": 5,
       "value": "1e-10"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77314,
+      "offset": 77296,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 77354,
+      "offset": 77336,
       "length": 20,
       "value": "\"CMN T=\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 77373,
+      "offset": 77355,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77418,
+      "offset": 77400,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77456,
+      "offset": 77438,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77499,
+      "offset": 77481,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77526,
+      "offset": 77508,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77650,
+      "offset": 77632,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 77691,
+      "offset": 77673,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 77828,
+      "offset": 77810,
       "length": 46,
       "value": "\"computeLogMel done T=\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 77862,
+      "offset": 77844,
       "length": 1,
       "value": "\" D=\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 77873,
+      "offset": 77855,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78061,
+      "offset": 78043,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "Array",
-      "offset": 78077,
+      "offset": 78059,
       "length": 5,
       "value": "[1.0]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78115,
+      "offset": 78097,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78149,
+      "offset": 78131,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78167,
+      "offset": 78149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78185,
+      "offset": 78167,
       "length": 4,
       "value": "0.54"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78192,
+      "offset": 78174,
       "length": 4,
       "value": "0.46"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78378,
+      "offset": 78360,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78382,
+      "offset": 78364,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78429,
+      "offset": 78411,
       "length": 6,
       "value": "2595.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78445,
+      "offset": 78427,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78456,
+      "offset": 78438,
       "length": 5,
       "value": "700.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78510,
+      "offset": 78492,
       "length": 5,
       "value": "700.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78524,
+      "offset": 78506,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78536,
+      "offset": 78518,
       "length": 6,
       "value": "2595.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78546,
+      "offset": 78528,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78639,
+      "offset": 78621,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78650,
+      "offset": 78632,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78719,
+      "offset": 78701,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78832,
+      "offset": 78814,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78903,
+      "offset": 78885,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 78922,
+      "offset": 78904,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 78974,
+      "offset": 78956,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 79019,
+      "offset": 79001,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 79084,
+      "offset": 79066,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 79113,
+      "offset": 79095,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "IntegerLiteral",
-      "offset": 79138,
+      "offset": 79120,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 79236,
+      "offset": 79218,
       "length": 4,
       "value": "1e-6"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 79294,
+      "offset": 79276,
       "length": 4,
       "value": "1e-6"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "FloatLiteral",
-      "offset": 79340,
+      "offset": 79322,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SpeakerVerification.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SpeakerVerification.swift",
       "kind": "StringLiteral",
-      "offset": 79742,
+      "offset": 79724,
       "length": 6,
       "value": "\"ONNX\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 402,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 3477,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 3513,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 5752,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 5991,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 6108,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 6228,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 6324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "StringLiteral",
       "offset": 6499,
       "length": 29,
       "value": "\"AVAudioWrapper.reclaimQueue\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 6624,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 6668,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 6718,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 6774,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 7098,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 7152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 7208,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "Array",
       "offset": 8008,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 8049,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 8096,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 8141,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 9128,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 9685,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 9735,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 9784,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 9820,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 9860,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 9964,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 10012,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "StringLiteral",
       "offset": 10913,
       "length": 36,
       "value": "\"com.davoice.wakeword.sessionEvents\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 11081,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 11289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 11355,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 11578,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 12289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 12475,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 12530,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "IntegerLiteral",
       "offset": 12576,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 12782,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 13418,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "StringLiteral",
       "offset": 13733,
       "length": 52,
       "value": "\"com.davoice.audioRouting.bluetoothHDProbe.identity\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "StringLiteral",
       "offset": 13832,
       "length": 52,
       "value": "\"com.davoice.audioRouting.bluetoothHDProbe.decision\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "FloatLiteral",
       "offset": 13941,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 28432,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 28483,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 39864,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 60381,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 60440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 120292,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 120350,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 120412,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 120476,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 136515,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 136573,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 136635,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AVAudioWrapper.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AVAudioWrapper.swift",
       "kind": "BooleanLiteral",
       "offset": 136699,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/GlobalVariables.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/GlobalVariables.swift",
       "kind": "FloatLiteral",
       "offset": 314,
       "length": 6,
       "value": "0.9999"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/GlobalVariables.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/GlobalVariables.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 334,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Dictionary",
       "offset": 1159,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Dictionary",
       "offset": 1227,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
       "offset": 19692,
       "length": 25,
       "value": "\"Keyword detection v3.0.\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 19877,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 20066,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20109,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20154,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20204,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20283,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20499,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 20620,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 20664,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 20704,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 20751,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 20797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 20952,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 21093,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 21098,
       "length": 2,
       "value": "97"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 21355,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 21396,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 21440,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 21472,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 21520,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 21573,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 21660,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 21985,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 22033,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 22081,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "FloatLiteral",
       "offset": 22142,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 22179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "FloatLiteral",
       "offset": 22286,
       "length": 6,
       "value": "1000.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 22336,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 22389,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 22440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 22490,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "FloatLiteral",
       "offset": 22606,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 22655,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 23010,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
       "offset": 23055,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Array",
       "offset": 23703,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "Dictionary",
       "offset": 23757,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
       "offset": 25076,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 65273,
+      "offset": 65288,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 65331,
+      "offset": 65346,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 65393,
+      "offset": 65408,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 65457,
+      "offset": 65472,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66020,
+      "offset": 66035,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66053,
+      "offset": 66068,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66090,
+      "offset": 66105,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66129,
+      "offset": 66144,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66899,
+      "offset": 66914,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66932,
+      "offset": 66947,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 66969,
+      "offset": 66984,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 67008,
+      "offset": 67023,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 68264,
+      "offset": 68279,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 68297,
+      "offset": 68312,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 68334,
+      "offset": 68349,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 68373,
+      "offset": 68388,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "BooleanLiteral",
-      "offset": 70642,
+      "offset": 70657,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 73840,
+      "offset": 73855,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 74320,
+      "offset": 74335,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 74365,
+      "offset": 74380,
       "length": 12,
       "value": "\"ORTSession\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 74385,
+      "offset": 74400,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "StringLiteral",
-      "offset": 74426,
+      "offset": 74441,
       "length": 34,
       "value": "\"Failed to retrieve output values\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 74958,
+      "offset": 74973,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75173,
+      "offset": 75188,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75182,
+      "offset": 75197,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75200,
+      "offset": 75215,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75258,
+      "offset": 75273,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75278,
+      "offset": 75293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75289,
+      "offset": 75304,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75310,
+      "offset": 75325,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75330,
+      "offset": 75345,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75333,
+      "offset": 75348,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75344,
+      "offset": 75359,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75365,
+      "offset": 75380,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75385,
+      "offset": 75400,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75388,
+      "offset": 75403,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75391,
+      "offset": 75406,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75402,
+      "offset": 75417,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75783,
+      "offset": 75798,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/KeyWordsDetection.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/KeyWordsDetection.swift",
       "kind": "IntegerLiteral",
-      "offset": 75788,
+      "offset": 75803,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 1720,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "StringLiteral",
       "offset": 1825,
       "length": 29,
       "value": "\"AudioProcessorFromVADOrFile\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "StringLiteral",
       "offset": 2495,
       "length": 17,
       "value": "\"silero_vad.onnx\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 2585,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 2627,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 2706,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 2796,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 2891,
       "length": 4,
       "value": "0.45"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 2939,
       "length": 5,
       "value": "0.225"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 3003,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 3038,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3569,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3609,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3664,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3708,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3756,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 3806,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 3860,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 3914,
       "length": 4,
       "value": "2500"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 3976,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 4025,
       "length": 4,
       "value": "2500"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 4077,
       "length": 4,
       "value": "2500"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
       "offset": 4122,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "Array",
       "offset": 4173,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 4221,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 7138,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 7196,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 7258,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 7322,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 36220,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 36251,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "FloatLiteral",
       "offset": 38381,
       "length": 3,
       "value": "0.1"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "IntegerLiteral",
       "offset": 38404,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 41346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 41404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 41466,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 41530,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 47121,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 47165,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 47198,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 47235,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 47274,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49167,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49207,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49269,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49304,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioProcessorFromVADOrFile.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioProcessorFromVADOrFile.swift",
       "kind": "BooleanLiteral",
       "offset": 49337,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 106,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 5,
       "value": "16000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 473,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 596,
       "length": 5,
       "value": "16000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 646,
       "length": 4,
       "value": "1280"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/Constants.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
       "length": 5,
       "value": "48000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Array",
       "offset": 377,
       "length": 7,
       "value": "[16000]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
       "offset": 415,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadOnnxModel.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadOnnxModel.swift",
       "kind": "Dictionary",
       "offset": 501,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioSessionAndDuckingManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioSessionAndDuckingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 249,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioSessionAndDuckingManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioSessionAndDuckingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioSessionAndDuckingManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioSessionAndDuckingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioSessionAndDuckingManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioSessionAndDuckingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 5013,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/AudioSessionAndDuckingManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/AudioSessionAndDuckingManager.swift",
       "kind": "BooleanLiteral",
       "offset": 20329,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 3129,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 4197,
       "length": 3,
       "value": "-25"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 4221,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 8756,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "FloatLiteral",
       "offset": 8914,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 9029,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "FloatLiteral",
       "offset": 9065,
       "length": 4,
       "value": "0.97"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 9134,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 9144,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 9174,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 9204,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/SlieroVadDetector.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/SlieroVadDetector.swift",
       "kind": "BooleanLiteral",
       "offset": 9659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 113,
-      "length": 4,
-      "value": "\"c1\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 344,
+      "length": 200,
+      "value": "[46, 190, 174, 14, 185, 18, 190, 166, 191, 223, 11, 89, 125, 90, 37, 5, 175, 121, 29, 54, 149, 38, 144, 103, 186, 173, 110, 175, 149, 198, 53, 208, 139, 205, 84, 17, 68, 37, 174, 84, 206, 125, 4, 161]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 583,
+      "length": 202,
+      "value": "[164, 246, 201, 77, 108, 218, 30, 207, 255, 35, 143, 195, 53, 119, 128, 246, 237, 200, 23, 254, 74, 1, 139, 223, 108, 196, 10, 155, 92, 96, 150, 227, 20, 107, 14, 13, 52, 97, 68, 149, 156, 126, 106, 36]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 144,
+      "offset": 4014,
+      "length": 8,
+      "value": "\"format\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4048,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4108,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4142,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4162,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 3,
-      "value": "\"f\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4244,
+      "length": 10,
+      "value": "1779314013"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 205,
-      "length": 3,
-      "value": "\"b\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4292,
+      "length": 314,
+      "value": "[95, 207, 100, 66, 29, 85, 214, 250, 174, 25, 223, 229, 13, 143, 168, 20, 248, 62, 66, 96, 221, 198, 226, 116, 114, 247, 131, 34, 22, 85, 30, 119, 164, 87, 228, 157, 59, 170, 113, 165, 111, 100, 108, 219, 46, 53, 202, 226, 58, 94, 49, 242, 138, 227, 72, 222, 96, 223, 68, 148, 135, 52, 152, 148, 168, 56, 189, 111]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 3,
-      "value": "\"Z\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4644,
+      "length": 220,
+      "value": "[74, 246, 95, 151, 233, 242, 132, 202, 75, 28, 116, 252, 151, 229, 165, 109, 221, 96, 1, 50, 254, 96, 4, 179, 85, 188, 217, 6, 56, 74, 138, 111, 58, 50, 195, 148, 24, 22, 15, 144, 83, 135, 50, 85, 255, 86, 179, 192, 254]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 3,
-      "value": "\"V\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4902,
+      "length": 1305,
+      "value": "[107, 231, 223, 34, 137, 75, 68, 182, 153, 171, 160, 220, 182, 166, 25, 71, 16, 165, 28, 35, 109, 38, 54, 13, 66, 221, 174, 120, 198, 102, 75, 175, 194, 128, 137, 175, 105, 84, 236, 112, 206, 146, 193, 252, 234, 195, 192, 245, 52, 255, 239, 9, 241, 20, 136, 49, 45, 20, 113, 229, 71, 90, 209, 130, 87, 7, 27, 240, 118, 87, 204, 157, 246, 213, 100, 141, 176, 241, 71, 138, 84, 10, 230, 206, 72, 157, 34, 236, 250, 12, 208, 221, 133, 101, 149, 129, 45, 135, 207, 233, 35, 245, 112, 179, 131, 139, 121, 165, 80, 29, 89, 229, 78, 107, 246, 206, 214, 146, 140, 180, 73, 131, 113, 76, 190, 7, 129, 106, 38, 97, 95, 250, 114, 247, 154, 219, 153, 106, 25, 181, 154, 104, 5, 45, 249, 52, 213, 254, 47, 106, 33, 96, 202, 169, 24, 18, 55, 124, 1, 156, 131, 111, 54, 103, 36, 140, 31, 0, 43, 59, 231, 43, 114, 180, 76, 47, 58, 223, 120, 235, 233, 153, 138, 198, 235, 81, 72, 13, 114, 189, 230, 41, 224, 129, 90, 57, 200, 125, 110, 109, 46, 65, 149, 226, 198, 66, 231, 186, 98, 20, 16, 240, 25, 1, 81, 22, 127, 113, 141, 85, 49, 141, 140, 116, 16, 14, 89, 188, 164, 79, 157, 212, 172, 31, 103, 49, 122, 29, 148, 230, 137, 12, 98, 189, 37, 10, 203, 211, 146, 134, 168, 18, 198, 107, 56, 4, 70, 155, 142, 2, 102, 162, 91, 154, 199, 132, 147, 180, 2, 149, 208, 73, 84, 86, 120, 21, 74, 89, 124, 21, 172, 49, 32, 174, 216]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 3,
-      "value": "\"H\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6243,
+      "length": 19,
+      "value": "4098823097158857096"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 3,
-      "value": "\"Y\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6276,
+      "length": 19,
+      "value": "4098821335586501000"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 363,
-      "length": 3,
-      "value": "\"I\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6349,
+      "length": 19,
+      "value": "1667382710409257418"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 394,
-      "length": 3,
-      "value": "\"T\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6382,
+      "length": 19,
+      "value": "1667380932481212321"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 426,
-      "length": 3,
-      "value": "\"k\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6464,
+      "length": 2,
+      "value": "26"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 454,
-      "length": 3,
-      "value": "\"m\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6475,
+      "length": 2,
+      "value": "65"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 482,
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6486,
       "length": 3,
-      "value": "\"Y\""
+      "value": "108"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
-      "length": 3,
-      "value": "\"D\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6498,
+      "length": 1,
+      "value": "4"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 543,
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6508,
       "length": 3,
-      "value": "\"R\""
+      "value": "112"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 3,
-      "value": "\"O\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6520,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6528,
       "length": 3,
-      "value": "\"4\""
+      "value": "114"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 631,
-      "length": 3,
-      "value": "\"w\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6538,
+      "length": 2,
+      "value": "32"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 660,
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6549,
       "length": 3,
-      "value": "\"c\""
+      "value": "146"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 693,
-      "length": 3,
-      "value": "\"Z\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 7889,
+      "length": 2,
+      "value": "[]"
     },
     {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 722,
-      "length": 3,
-      "value": "\"V\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 751,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 780,
-      "length": 3,
-      "value": "\"T\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/dev\/claude_scratch\/kwd_fix_1126\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 811,
-      "length": 3,
-      "value": "\"s\""
+      "filePath": "\/Volumes\/T9\/projects\/KeywordDetectionIOSLibPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16272,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

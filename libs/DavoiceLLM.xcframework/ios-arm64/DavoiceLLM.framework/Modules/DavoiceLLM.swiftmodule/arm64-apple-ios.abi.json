@@ -748,6 +748,52 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "isLicenseValid",
+            "printedName": "isLicenseValid(licenseKey:product:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LicenseManager(cm)isLicenseValidWithLicenseKey:product:",
+            "mangledName": "$s10DavoiceLLM14LicenseManagerC02isC5Valid10licenseKey7productSbSS_SSSgtFZ",
+            "moduleName": "DavoiceLLM",
+            "static": true,
+            "objc_name": "isLicenseValidWithLicenseKey:product:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -2765,171 +2811,199 @@
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 122,
-      "length": 4,
-      "value": "\"c1\""
+      "kind": "Array",
+      "offset": 349,
+      "length": 203,
+      "value": "[53, 213, 254, 146, 60, 113, 138, 77, 55, 226, 84, 17, 32, 41, 251, 153, 79, 157, 143, 186, 228, 131, 18, 85, 166, 18, 173, 230, 98, 169, 249, 102, 120, 89, 80, 180, 133, 220, 191, 220, 113, 55, 213, 40]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 591,
+      "length": 205,
+      "value": "[18, 194, 118, 86, 224, 203, 109, 60, 20, 224, 228, 178, 189, 169, 20, 126, 164, 152, 178, 65, 214, 5, 182, 40, 240, 70, 64, 123, 249, 63, 249, 102, 38, 186, 234, 204, 124, 173, 39, 137, 21, 236, 147, 121]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4025,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
       "kind": "StringLiteral",
-      "offset": 157,
+      "offset": 4052,
+      "length": 8,
+      "value": "\"format\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4115,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4146,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "Array",
+      "offset": 4180,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 191,
-      "length": 3,
-      "value": "\"f\""
+      "kind": "IntegerLiteral",
+      "offset": 4282,
+      "length": 10,
+      "value": "1308704330"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 226,
-      "length": 3,
-      "value": "\"b\""
+      "kind": "Array",
+      "offset": 4330,
+      "length": 163,
+      "value": "[94, 161, 239, 85, 194, 215, 104, 231, 88, 91, 154, 40, 164, 226, 184, 191, 16, 164, 5, 103, 1, 107, 209, 112, 170, 158, 55, 51, 29, 78, 219, 135, 73, 32, 103, 34]"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 3,
-      "value": "\"Z\""
+      "kind": "Array",
+      "offset": 4531,
+      "length": 210,
+      "value": "[167, 28, 172, 188, 248, 102, 67, 69, 124, 90, 68, 216, 220, 162, 116, 26, 34, 199, 151, 49, 64, 73, 32, 44, 201, 106, 104, 187, 243, 91, 121, 165, 153, 242, 227, 216, 102, 124, 100, 102, 29, 145, 180, 137, 93]"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 302,
-      "length": 3,
-      "value": "\"V\""
+      "kind": "Array",
+      "offset": 4779,
+      "length": 1466,
+      "value": "[131, 174, 81, 183, 7, 106, 123, 167, 138, 50, 113, 3, 124, 128, 30, 184, 104, 210, 102, 69, 171, 95, 129, 155, 205, 191, 187, 190, 114, 172, 11, 96, 252, 231, 214, 123, 128, 242, 253, 209, 168, 95, 247, 186, 171, 169, 59, 93, 201, 44, 114, 49, 94, 179, 228, 27, 246, 217, 33, 173, 230, 94, 177, 236, 143, 49, 107, 238, 55, 137, 171, 184, 246, 134, 62, 181, 32, 175, 224, 230, 211, 4, 6, 249, 254, 72, 150, 100, 1, 50, 247, 226, 79, 220, 113, 5, 181, 37, 48, 103, 242, 145, 167, 53, 59, 194, 100, 180, 96, 160, 33, 52, 126, 189, 128, 91, 26, 39, 178, 124, 73, 21, 164, 9, 101, 155, 126, 12, 155, 33, 198, 104, 1, 11, 103, 155, 98, 104, 220, 255, 46, 119, 249, 197, 99, 24, 179, 15, 33, 98, 2, 64, 203, 154, 220, 138, 195, 136, 134, 117, 22, 92, 31, 93, 60, 155, 169, 75, 43, 107, 139, 66, 143, 159, 154, 125, 137, 157, 175, 126, 28, 74, 142, 132, 46, 197, 26, 41, 244, 235, 112, 4, 41, 101, 80, 197, 117, 141, 35, 247, 139, 111, 171, 1, 160, 153, 158, 79, 238, 1, 97, 155, 133, 82, 118, 72, 99, 171, 143, 159, 69, 204, 187, 130, 153, 221, 27, 149, 1, 0, 213, 94, 91, 98, 92, 245, 51, 164, 134, 196, 91, 155, 166, 20, 225, 56, 30, 16, 165, 244, 218, 179, 147, 106, 141, 22, 230, 77, 209, 175, 66, 5, 197, 10, 63, 178, 196, 11, 189, 26, 50, 95, 64, 120, 115, 36, 91, 25, 204, 247, 28, 11, 218, 85, 207, 151, 76, 57, 204, 92, 159, 171, 164, 199, 79, 194, 243, 154, 199, 107, 80, 99, 12, 212, 217, 253, 165, 109, 126, 92, 30, 142, 132, 3, 27, 182, 204, 17, 20, 252, 205]"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 335,
-      "length": 3,
-      "value": "\"H\""
+      "kind": "IntegerLiteral",
+      "offset": 6281,
+      "length": 18,
+      "value": "280549930732249059"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 3,
-      "value": "\"Y\""
+      "kind": "IntegerLiteral",
+      "offset": 6313,
+      "length": 18,
+      "value": "280550316778414051"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 404,
-      "length": 3,
-      "value": "\"I\""
+      "kind": "IntegerLiteral",
+      "offset": 6385,
+      "length": 18,
+      "value": "770033061193986736"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 439,
-      "length": 3,
-      "value": "\"T\""
+      "kind": "IntegerLiteral",
+      "offset": 6417,
+      "length": 18,
+      "value": "770033482315926539"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 3,
-      "value": "\"k\""
+      "kind": "IntegerLiteral",
+      "offset": 6498,
+      "length": 2,
+      "value": "26"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 507,
-      "length": 3,
-      "value": "\"m\""
+      "kind": "IntegerLiteral",
+      "offset": 6509,
+      "length": 2,
+      "value": "65"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 539,
+      "kind": "IntegerLiteral",
+      "offset": 6520,
       "length": 3,
-      "value": "\"Y\""
+      "value": "108"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 571,
-      "length": 3,
-      "value": "\"D\""
+      "kind": "IntegerLiteral",
+      "offset": 6532,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 608,
+      "kind": "IntegerLiteral",
+      "offset": 6542,
       "length": 3,
-      "value": "\"R\""
+      "value": "112"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 640,
-      "length": 3,
-      "value": "\"O\""
+      "kind": "IntegerLiteral",
+      "offset": 6554,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 673,
+      "kind": "IntegerLiteral",
+      "offset": 6562,
       "length": 3,
-      "value": "\"4\""
+      "value": "114"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 708,
-      "length": 3,
-      "value": "\"w\""
+      "kind": "IntegerLiteral",
+      "offset": 6572,
+      "length": 2,
+      "value": "32"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 741,
+      "kind": "IntegerLiteral",
+      "offset": 6583,
       "length": 3,
-      "value": "\"c\""
+      "value": "146"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 778,
-      "length": 3,
-      "value": "\"Z\""
+      "kind": "Array",
+      "offset": 7923,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 811,
-      "length": 3,
-      "value": "\"V\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 844,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 877,
-      "length": 3,
-      "value": "\"T\""
-    },
-    {
-      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
-      "kind": "StringLiteral",
-      "offset": 912,
-      "length": 3,
-      "value": "\"s\""
+      "kind": "IntegerLiteral",
+      "offset": 16306,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",

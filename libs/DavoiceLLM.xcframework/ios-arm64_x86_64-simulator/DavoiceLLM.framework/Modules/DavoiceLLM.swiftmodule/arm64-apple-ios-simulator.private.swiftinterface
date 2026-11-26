@@ -41,6 +41,9 @@ public struct DavoiceAgentError : Swift.Error, Foundation.LocalizedError, Founda
 }
 @_inheritsConvenienceInitializers @objc final public class LicenseManager : ObjectiveC.NSObject {
   @objc public static func isLicenseValid(licenseKey: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func isLicenseValid(licenseKey: Swift.String, product: Swift.String?) -> Swift.Bool
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
