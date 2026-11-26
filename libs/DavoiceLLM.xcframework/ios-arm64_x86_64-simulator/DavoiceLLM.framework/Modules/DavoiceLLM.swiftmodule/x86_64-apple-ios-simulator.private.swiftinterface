@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios13.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DavoiceLLM
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import CommonCrypto
+import Foundation
+import Metal
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct DavoiceAgentError : Swift.Error, Foundation.LocalizedError, Foundation.CustomNSError {
+  public let message: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+@objc @objcMembers final public class DavoiceAgent : ObjectiveC.NSObject {
+  @objc public init(configJson: Swift.String, listener: @escaping (Swift.String) -> Swift.Void) throws
+  @objc deinit
+  @objc final public func call(method: Swift.String, argsJson: Swift.String) throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func callAsync(method: Swift.String, argsJson: Swift.String, completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @objc final public func resolve(id: Swift.Int64, resultJson: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func attach(engine: DavoiceLLM.LocalLLMEngine?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func attachLayer2(engine: DavoiceLLM.LocalLLMEngine?)
+  #endif
+  @objc final public func close()
+}
+@_inheritsConvenienceInitializers @objc final public class LicenseManager : ObjectiveC.NSObject {
+  @objc public static func isLicenseValid(licenseKey: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum LocalLLMError : Swift.Error, Foundation.CustomNSError, Foundation.LocalizedError {
+  case engineNotVendored
+  case modelNotLoaded
+  case licenseNotActivated
+  case loadFailed(Swift.String)
+  case generationFailed(Swift.String)
+  case unsupportedDevice
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorCode: Swift.Int {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class LocalLLMLoadOptions : ObjectiveC.NSObject {
+  @objc final public var contextSize: Foundation.NSNumber?
+  @objc final public var nGpuLayers: Foundation.NSNumber?
+  @objc final public var useMlock: Swift.Bool
+  @objc final public var useMmap: Swift.Bool
+  @objc final public var cacheTypeK: Swift.String?
+  @objc final public var cacheTypeV: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class LocalLLMEngine : ObjectiveC.NSObject {
+  @objc final public var isLoaded: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc final public func setLicense(licenseKey: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func loadModel(path: Swift.String, options: DavoiceLLM.LocalLLMLoadOptions?) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func generate(prompt: Swift.String, completion: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  #endif
+  @objc final public func generateStream(prompt: Swift.String, onToken: @escaping (Swift.String, Swift.Bool) -> Swift.Void, onError: @escaping (any Swift.Error) -> Swift.Void)
+  @objc final public func prefill(prompt: Swift.String)
+  @objc final public func saveState(path: Swift.String) throws -> Foundation.NSNumber
+  @objc final public func loadState(path: Swift.String) throws -> Foundation.NSNumber
+  @objc final public func cancel()
+  @objc final public func unloadModel()
+  @objc deinit
+}

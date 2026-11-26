@@ -1,0 +1,2977 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DavoiceLLM",
+    "printedName": "DavoiceLLM",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DavoiceLLM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DavoiceAgentError",
+        "printedName": "DavoiceAgentError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM0A10AgentErrorV7messageSSvp",
+            "mangledName": "$s10DavoiceLLM0A10AgentErrorV7messageSSvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM0A10AgentErrorV7messageSSvg",
+                "mangledName": "$s10DavoiceLLM0A10AgentErrorV7messageSSvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM0A10AgentErrorV16errorDescriptionSSSgvp",
+            "mangledName": "$s10DavoiceLLM0A10AgentErrorV16errorDescriptionSSSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM0A10AgentErrorV16errorDescriptionSSSgvg",
+                "mangledName": "$s10DavoiceLLM0A10AgentErrorV16errorDescriptionSSSgvg",
+                "moduleName": "DavoiceLLM",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM0A10AgentErrorV11errorDomainSSvpZ",
+            "mangledName": "$s10DavoiceLLM0A10AgentErrorV11errorDomainSSvpZ",
+            "moduleName": "DavoiceLLM",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM0A10AgentErrorV11errorDomainSSvgZ",
+                "mangledName": "$s10DavoiceLLM0A10AgentErrorV11errorDomainSSvgZ",
+                "moduleName": "DavoiceLLM",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM0A10AgentErrorV13errorUserInfoSDySSypGvp",
+            "mangledName": "$s10DavoiceLLM0A10AgentErrorV13errorUserInfoSDySSypGvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM0A10AgentErrorV13errorUserInfoSDySSypGvg",
+                "mangledName": "$s10DavoiceLLM0A10AgentErrorV13errorUserInfoSDySSypGvg",
+                "moduleName": "DavoiceLLM",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10DavoiceLLM0A10AgentErrorV",
+        "mangledName": "$s10DavoiceLLM0A10AgentErrorV",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DavoiceAgent",
+        "printedName": "DavoiceAgent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configJson:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DavoiceAgent",
+                "printedName": "DavoiceLLM.DavoiceAgent",
+                "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)initWithConfigJson:error:listener:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC10configJson8listenerACSS_ySSctKcfc",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "call",
+            "printedName": "call(method:argsJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)callWithMethod:argsJson:error:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC4call6method8argsJsonS2S_SStKF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callAsync",
+            "printedName": "callAsync(method:argsJson:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)callAsyncWithMethod:argsJson:completion:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC9callAsync6method8argsJson10completionySS_SSySSSg_s5Error_pSgtctF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(id:resultJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)resolveWithId:resultJson:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC7resolve2id10resultJsonys5Int64V_SStF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attach",
+            "printedName": "attach(engine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DavoiceLLM.LocalLLMEngine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMEngine",
+                    "printedName": "DavoiceLLM.LocalLLMEngine",
+                    "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)attachWithEngine:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC6attach6engineyAA14LocalLLMEngineCSg_tF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "attachLayer2",
+            "printedName": "attachLayer2(engine:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DavoiceLLM.LocalLLMEngine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMEngine",
+                    "printedName": "DavoiceLLM.LocalLLMEngine",
+                    "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)attachLayer2WithEngine:",
+            "mangledName": "$s10DavoiceLLM0A5AgentC12attachLayer26engineyAA14LocalLLMEngineCSg_tF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)close",
+            "mangledName": "$s10DavoiceLLM0A5AgentC5closeyyF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DavoiceAgent",
+                "printedName": "DavoiceLLM.DavoiceAgent",
+                "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent(im)init",
+            "mangledName": "$s10DavoiceLLM0A5AgentCACycfc",
+            "moduleName": "DavoiceLLM",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DavoiceLLM@objc(cs)DavoiceAgent",
+        "mangledName": "$s10DavoiceLLM0A5AgentC",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DavoiceLLM"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "DavoiceLLM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LicenseManager",
+        "printedName": "LicenseManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isLicenseValid",
+            "printedName": "isLicenseValid(licenseKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LicenseManager(cm)isLicenseValidWithLicenseKey:",
+            "mangledName": "$s10DavoiceLLM14LicenseManagerC02isC5Valid10licenseKeySbSS_tFZ",
+            "moduleName": "DavoiceLLM",
+            "static": true,
+            "objc_name": "isLicenseValidWithLicenseKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LicenseManager",
+                "printedName": "DavoiceLLM.LicenseManager",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LicenseManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LicenseManager(im)init",
+            "mangledName": "$s10DavoiceLLM14LicenseManagerCACycfc",
+            "moduleName": "DavoiceLLM",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DavoiceLLM@objc(cs)LicenseManager",
+        "mangledName": "$s10DavoiceLLM14LicenseManagerC",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DavoiceLLM"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "DavoiceLLM"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalLLMError",
+        "printedName": "LocalLLMError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "engineNotVendored",
+            "printedName": "engineNotVendored",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMError",
+                    "printedName": "DavoiceLLM.LocalLLMError",
+                    "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO17engineNotVendoredyA2CmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO17engineNotVendoredyA2CmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "modelNotLoaded",
+            "printedName": "modelNotLoaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMError",
+                    "printedName": "DavoiceLLM.LocalLLMError",
+                    "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO14modelNotLoadedyA2CmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO14modelNotLoadedyA2CmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseNotActivated",
+            "printedName": "licenseNotActivated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMError",
+                    "printedName": "DavoiceLLM.LocalLLMError",
+                    "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO19licenseNotActivatedyA2CmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO19licenseNotActivatedyA2CmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadFailed",
+            "printedName": "loadFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> (Swift.String) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DavoiceLLM.LocalLLMError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO10loadFailedyACSScACmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO10loadFailedyACSScACmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generationFailed",
+            "printedName": "generationFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> (Swift.String) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DavoiceLLM.LocalLLMError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO16generationFailedyACSScACmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO16generationFailedyACSScACmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedDevice",
+            "printedName": "unsupportedDevice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DavoiceLLM.LocalLLMError.Type) -> DavoiceLLM.LocalLLMError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMError",
+                    "printedName": "DavoiceLLM.LocalLLMError",
+                    "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DavoiceLLM.LocalLLMError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocalLLMError",
+                        "printedName": "DavoiceLLM.LocalLLMError",
+                        "usr": "s:10DavoiceLLM13LocalLLMErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO17unsupportedDeviceyA2CmF",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO17unsupportedDeviceyA2CmF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO11errorDomainSSvpZ",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO11errorDomainSSvpZ",
+            "moduleName": "DavoiceLLM",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM13LocalLLMErrorO11errorDomainSSvgZ",
+                "mangledName": "$s10DavoiceLLM13LocalLLMErrorO11errorDomainSSvgZ",
+                "moduleName": "DavoiceLLM",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO9errorCodeSivp",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO9errorCodeSivp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM13LocalLLMErrorO9errorCodeSivg",
+                "mangledName": "$s10DavoiceLLM13LocalLLMErrorO9errorCodeSivg",
+                "moduleName": "DavoiceLLM",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO16errorDescriptionSSSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM13LocalLLMErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s10DavoiceLLM13LocalLLMErrorO16errorDescriptionSSSgvg",
+                "moduleName": "DavoiceLLM",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10DavoiceLLM13LocalLLMErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s10DavoiceLLM13LocalLLMErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM13LocalLLMErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s10DavoiceLLM13LocalLLMErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "DavoiceLLM",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10DavoiceLLM13LocalLLMErrorO",
+        "mangledName": "$s10DavoiceLLM13LocalLLMErrorO",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalLLMLoadOptions",
+        "printedName": "LocalLLMLoadOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contextSize",
+            "printedName": "contextSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)contextSize",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC11contextSizeSo8NSNumberCSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)contextSize",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC11contextSizeSo8NSNumberCSgvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setContextSize:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC11contextSizeSo8NSNumberCSgvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC11contextSizeSo8NSNumberCSgvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC11contextSizeSo8NSNumberCSgvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nGpuLayers",
+            "printedName": "nGpuLayers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)nGpuLayers",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10nGpuLayersSo8NSNumberCSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)nGpuLayers",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10nGpuLayersSo8NSNumberCSgvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setNGpuLayers:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10nGpuLayersSo8NSNumberCSgvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC10nGpuLayersSo8NSNumberCSgvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10nGpuLayersSo8NSNumberCSgvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useMlock",
+            "printedName": "useMlock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)useMlock",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC8useMlockSbvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)useMlock",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC8useMlockSbvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setUseMlock:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC8useMlockSbvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC8useMlockSbvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC8useMlockSbvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useMmap",
+            "printedName": "useMmap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)useMmap",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC7useMmapSbvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)useMmap",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC7useMmapSbvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setUseMmap:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC7useMmapSbvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC7useMmapSbvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC7useMmapSbvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cacheTypeK",
+            "printedName": "cacheTypeK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)cacheTypeK",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeKSSSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)cacheTypeK",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeKSSSgvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setCacheTypeK:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeKSSSgvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeKSSSgvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeKSSSgvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cacheTypeV",
+            "printedName": "cacheTypeV",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(py)cacheTypeV",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeVSSSgvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)cacheTypeV",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeVSSSgvg",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)setCacheTypeV:",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeVSSSgvs",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeVSSSgvM",
+                "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC10cacheTypeVSSSgvM",
+                "moduleName": "DavoiceLLM",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalLLMLoadOptions",
+                "printedName": "DavoiceLLM.LocalLLMLoadOptions",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions(im)init",
+            "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsCACycfc",
+            "moduleName": "DavoiceLLM",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions",
+        "mangledName": "$s10DavoiceLLM19LocalLLMLoadOptionsC",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalLLMEngine",
+        "printedName": "LocalLLMEngine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isLoaded",
+            "printedName": "isLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(py)isLoaded",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC8isLoadedSbvp",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)isLoaded",
+                "mangledName": "$s10DavoiceLLM14LocalLLMEngineC8isLoadedSbvg",
+                "moduleName": "DavoiceLLM",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalLLMEngine",
+                "printedName": "DavoiceLLM.LocalLLMEngine",
+                "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)init",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineCACycfc",
+            "moduleName": "DavoiceLLM",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setLicense",
+            "printedName": "setLicense(licenseKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)setLicenseWithLicenseKey:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC10setLicense10licenseKeySbSS_tF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "setLicenseWithLicenseKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadModel",
+            "printedName": "loadModel(path:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DavoiceLLM.LocalLLMLoadOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocalLLMLoadOptions",
+                    "printedName": "DavoiceLLM.LocalLLMLoadOptions",
+                    "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMLoadOptions"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)loadModelWithPath:options:error:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC9loadModel4path7optionsySS_AA0C14LLMLoadOptionsCSgtKF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "loadModelWithPath:options:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generate",
+            "printedName": "generate(prompt:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)generateWithPrompt:completion:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC8generate6prompt10completionySS_ySSSg_s5Error_pSgtctF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "generateWithPrompt:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateStream",
+            "printedName": "generateStream(prompt:onToken:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.Bool)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)generateStreamWithPrompt:onToken:onError:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC14generateStream6prompt7onToken0H5ErrorySS_ySS_Sbtcys0J0_pctF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "generateStreamWithPrompt:onToken:onError:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prefill",
+            "printedName": "prefill(prompt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)prefillWithPrompt:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC7prefill6promptySS_tF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "prefillWithPrompt:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveState",
+            "printedName": "saveState(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)saveStateWithPath:error:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC9saveState4pathSo8NSNumberCSS_tKF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "saveStateWithPath:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadState",
+            "printedName": "loadState(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)loadStateWithPath:error:",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC9loadState4pathSo8NSNumberCSS_tKF",
+            "moduleName": "DavoiceLLM",
+            "objc_name": "loadStateWithPath:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)cancel",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC6cancelyyF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unloadModel",
+            "printedName": "unloadModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine(im)unloadModel",
+            "mangledName": "$s10DavoiceLLM14LocalLLMEngineC11unloadModelyyF",
+            "moduleName": "DavoiceLLM",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DavoiceLLM@objc(cs)LocalLLMEngine",
+        "mangledName": "$s10DavoiceLLM14LocalLLMEngineC",
+        "moduleName": "DavoiceLLM",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/DavoiceAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 26,
+      "value": "\"{\"ok\":true,\"result\":\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/DavoiceAgent.swift",
+      "kind": "StringLiteral",
+      "offset": 3244,
+      "length": 18,
+      "value": "\"io.davoice.agent\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 4,
+      "value": "\"c1\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 3,
+      "value": "\"f\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 3,
+      "value": "\"b\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 3,
+      "value": "\"V\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 3,
+      "value": "\"H\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "\"I\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 3,
+      "value": "\"T\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 3,
+      "value": "\"k\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 3,
+      "value": "\"m\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 3,
+      "value": "\"D\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 3,
+      "value": "\"O\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 3,
+      "value": "\"4\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 3,
+      "value": "\"w\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 3,
+      "value": "\"c\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 3,
+      "value": "\"Z\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 3,
+      "value": "\"V\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 844,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 3,
+      "value": "\"T\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6487,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7218,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8394,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/T9\/projects\/DavoiceLLMIOSPrivate\/Sources\/LocalLLMEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 8922,
+      "length": 21,
+      "value": "\"io.davoice.llm.work\""
+    }
+  ]
+}

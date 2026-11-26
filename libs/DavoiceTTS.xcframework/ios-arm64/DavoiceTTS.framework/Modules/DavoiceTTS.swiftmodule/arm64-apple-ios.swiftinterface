@@ -1,0 +1,354 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DavoiceTTS
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFAudio
+import AVFoundation
+import Accelerate
+import CommonCrypto
+import Foundation
+import ObjectiveC
+import Speech
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import onnxruntime_objc
+import ObjectiveC.runtime
+public typealias EngineSchedule = (_ url: Foundation.URL, _ onDone: @escaping () -> Swift.Void) -> Swift.Bool
+public typealias IsEngineReady = () -> Swift.Bool
+public typealias useOnlyEnginePlayback = () -> Swift.Bool
+public typealias StopEnginePlayback = () -> Swift.Void
+public typealias CurrentEngineProvider = () -> AVFAudio.AVAudioEngine?
+public typealias QuiesceEngineForAudioSessionCycle = () -> Swift.Bool
+public typealias ResumeEngineAfterAudioSessionCycle = () -> Swift.Void
+@_inheritsConvenienceInitializers @objc final public class DaVoiceAudioRoutingConfig : ObjectiveC.NSObject {
+  @objc public static func setAudioRoutingConfigJSONString(_ json: Swift.String) -> Swift.Bool
+  @objc public static func clearAudioRoutingConfig()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum AudioPlaybackHook {
+  public static var engineScheduleFile: DavoiceTTS.EngineSchedule?
+  public static var engineScheduleFailedAsync: ((Foundation.URL) -> Swift.Void)?
+  public static var sttRoutingConfigDidChange: (() -> Swift.Void)?
+  public static var stopSpeakingForRoutingChange: (() -> Swift.Void)?
+  public static var isEngineReady: DavoiceTTS.IsEngineReady?
+  public static var useOnlyEnginePlayback: DavoiceTTS.useOnlyEnginePlayback?
+  public static var stopEnginePlayback: DavoiceTTS.StopEnginePlayback?
+  public static var currentEngine: DavoiceTTS.CurrentEngineProvider?
+  public static var quiesceEngineForAudioSessionCycle: DavoiceTTS.QuiesceEngineForAudioSessionCycle?
+  public static var resumeEngineAfterAudioSessionCycle: DavoiceTTS.ResumeEngineAfterAudioSessionCycle?
+  public static var isMicPaused: (() -> Swift.Bool)?
+  public static var useOSDefaultSamplingRate: (() -> Swift.Bool)?
+  public static var sttLegacyAECState: (() -> (engineActive: Swift.Bool, voiceProcessingActive: Swift.Bool))?
+  public static var isTTSPlayingOnSTTEngine: Swift.Bool {
+    get
+  }
+}
+@objc public protocol STTDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc func stt(_ stt: DavoiceTTS.STT, didEmitEvent name: Swift.String, body: [Swift.String : Any]?)
+  #endif
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class STT : ObjectiveC.NSObject, Speech.SFSpeechRecognizerDelegate {
+  @objc weak final public var delegate: (any DavoiceTTS.STTDelegate)?
+  @objc final public var continuous: Swift.Bool
+  @objc final public var aecEnabled: Swift.Bool
+  @objc final public var force16kMicSampleRate: Swift.Bool
+  @objc final public var useOSDefaultSamplingRate: Swift.Bool
+  @objc final public var useLegacySpeakerGateBehavior: Swift.Bool
+  @objc final public var useSpeakerGateHangover: Swift.Bool
+  @objc final public var speakerGateHangoverSeconds: Swift.Double
+  @objc final public var useShortSpeakerVerificationTailWindow: Swift.Bool
+  @objc final public var shortSpeakerVerificationTailSeconds: Swift.Float
+  @objc final public var speakerPreRollFlushMaxSeconds: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+  @objc public static let supportedEvents: [Swift.String]
+  @objc final public func setLicense(licenseKey: Swift.String) -> Swift.Bool
+  @objc final public func pauseSpeechRecognitionLite()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func pauseSpeechRecognitionLiteAndWait(_ timeoutMs: Foundation.NSNumber, completion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  #endif
+  @objc final public func unPauseSpeechRecognitionLite(_ times: Foundation.NSNumber)
+  @objc(unPauseSpeechRecognitionLite:preFetch:) final public func unPauseSpeechRecognitionLite(_ times: Foundation.NSNumber, preFetch: Foundation.NSNumber)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func unPauseSpeechRecognitionLiteAndWait(_ times: Foundation.NSNumber, preFetch: Foundation.NSNumber, timeoutMs: Foundation.NSNumber, completion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func pauseMicrophoneAndWait(_ timeoutMs: Foundation.NSNumber, completion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func unPauseMicrophoneAndWait(_ timeoutMs: Foundation.NSNumber, completion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  #endif
+  @objc final public func pauseMicrophone()
+  @objc final public func unPauseMicrophone()
+  @objc final public func setAECEnabled(_ enabled: Swift.Bool)
+  @objc final public func isAECEnabled() -> Swift.Bool
+  @objc final public func isSpeechAvailable(_ completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public static func getOnDeviceLanguages() -> [Swift.String : Any]
+  @objc final public func isRecognizing() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func startSpeech(localeStr: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func startSpeech(localeStr: Swift.String?, onboardingJsonPath: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func startSpeech(localeStr: Swift.String?, onboardingJsonPath: Swift.String, speakerId: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func startSpeech(localeStr: Swift.String?, speakers: [[Swift.String : Swift.String]])
+  #endif
+  @objc final public func addSpeaker(id: Swift.String, jsonOrPath: Swift.String) throws
+  @objc final public func setSpeakers(_ speakers: [[Swift.String : Swift.String]]) throws
+  @objc @discardableResult
+  final public func removeSpeaker(id: Swift.String) -> Swift.Bool
+  @objc final public func getSpeakerIds() -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func stopSpeech(_ completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func cancelSpeech(_ completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func destroySpeech(_ completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
+  @objc final public func teardown()
+  @objc final public func speechRecognizer(_ speechRecognizer: Speech.SFSpeechRecognizer, availabilityDidChange available: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class SwiftSoundQueue : ObjectiveC.NSObject, AVFAudio.AVAudioPlayerDelegate {
+  @objc deinit
+  public static let shared: DavoiceTTS.SwiftSoundQueue
+  final public func notifyWhenURLFinishes(_ url: Foundation.URL, _ cb: @escaping () -> Swift.Void)
+  final public var onItemDone: ((Foundation.URL) -> Swift.Void)?
+  final public var onQueueEmpty: (() -> Swift.Void)?
+  final public func beginAudioProduction() -> Foundation.UUID
+  final public func endAudioProduction(_ token: Foundation.UUID)
+  final public func enqueue(_ source: DavoiceTTS.SwiftSoundQueue.Source)
+  final public func enqueueMany(_ sources: [DavoiceTTS.SwiftSoundQueue.Source], deletingAfterPlayback owned: [Foundation.URL] = [])
+  final public func stop()
+  public enum Source {
+    case fileURL(Foundation.URL)
+    case named(Swift.String)
+    case ttsv2(DavoiceTTS.TtsV2PCMStream)
+  }
+  final public func teardownTtsv2Engine()
+  @objc final public func audioPlayerDidFinishPlaying(_ p: AVFAudio.AVAudioPlayer, successfully ok: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func audioPlayerDecodeErrorDidOccur(_ p: AVFAudio.AVAudioPlayer, error: (any Swift.Error)?)
+  #endif
+  final public func activatePlaybackOnlySession()
+  final public func activateSpeaker()
+}
+@objc @objcMembers final public class DaVoiceTTS : ObjectiveC.NSObject {
+  @objc public static func setUseDavoiceProprietaryPhonemizer(_ enabled: Swift.Bool)
+  @objc public static func getUseDavoiceProprietaryPhonemizer() -> Swift.Bool
+  @objc final public func isUsingDavoiceProprietaryPhonemizer() -> Swift.Bool
+  public struct Config {
+  }
+  public enum NumberFormatStyle : Swift.Int {
+    case us
+    case european
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.Int)
+    #endif
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc final public func getAllVoices() -> [Swift.String]
+  @objc final public func getVoiceAbilities(_ name: Swift.String) -> [Swift.String]
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(setExternalVoicesPath:completion:) final public func setExternalVoicesPath(_ path: Swift.String?, completion: (([Swift.String]) -> Swift.Void)? = nil)
+  #endif
+  @objc public static func createVoiceClone(_ inputAudioPath: Swift.String, outputPath: Swift.String, embedderPath: Swift.String) throws -> [Swift.String : Any]
+  @objc public static func createVoiceClone(_ inputAudioPath: Swift.String, outputPath: Swift.String, embedderPath: Swift.String, volume: Swift.Double) throws -> [Swift.String : Any]
+  @objc(changeVoice:completion:) final public func changeVoice(_ name: Swift.String, completion: @escaping (Swift.Int) -> Swift.Void)
+  @objc final public var onLastUtteranceFinished: (() -> Swift.Void)?
+  @objc deinit
+  @objc public static func activateLicense(licenseKey: Swift.String) -> Swift.Bool
+  @objc final public func setLicense(licenseKey: Swift.String) -> Swift.Bool
+  final public func setNumberFormatStyle(_ style: DavoiceTTS.DaVoiceTTS.NumberFormatStyle)
+  @objc final public func setUseEuropeanNumberFormat(_ enabled: Swift.Bool)
+  public struct Biquad {
+    public var b0: Swift.Float, b1: Swift.Float, b2: Swift.Float, a1: Swift.Float, a2: Swift.Float
+    public init(b0: Swift.Float, b1: Swift.Float, b2: Swift.Float, a1: Swift.Float, a2: Swift.Float)
+    public mutating func process(_ x: Swift.UnsafeMutablePointer<Swift.Float>, _ n: Swift.Int)
+  }
+  @objc public init(model: Foundation.URL) throws
+  @objc final public func stopSpeaking()
+  @objc final public func destroy()
+  @objc(speak:sid:) final public func speak(_ txt: Swift.String, sid: Swift.Int32 = 0)
+  @objc(speak:sid:speed:) final public func speak(_ txt: Swift.String, sid: Swift.Int32 = 0, speed: Swift.Float)
+  @objc final public func synthesize_top(_ _text: Swift.String, speakerId: Swift.Int32 = 0, token: Foundation.UUID, speed_adjuster: Swift.Float) throws -> AVFAudio.AVAudioPCMBuffer
+  @objc final public func playWav(_ url: Foundation.URL, markAsLastUtterance: Swift.Bool = true)
+  @objc final public func playBuffer(_ buffer: AVFAudio.AVAudioPCMBuffer, markAsLastUtterance: Swift.Bool = true)
+}
+@_inheritsConvenienceInitializers @objc final public class DaVoiceLegacyAEC : ObjectiveC.NSObject {
+  @objc public static var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static var externalListener: ((AVFAudio.AVAudioPCMBuffer) -> Swift.Void)? {
+    get
+    set
+  }
+  #endif
+  @objc public static func deviceHasSessionLevelAEC(_ session: AVFAudio.AVAudioSession = .sharedInstance()) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class LicenseManager : ObjectiveC.NSObject {
+  @objc public static func isLicenseValid(licenseKey: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum SVLogLevel : Swift.Int, Swift.Codable {
+  case off, error, warn, info, debug, trace
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol SVLogger {
+  func log(_ level: DavoiceTTS.SVLogLevel, _ tag: Swift.String, _ msg: Swift.String)
+}
+final public class SVDefaultLogger : DavoiceTTS.SVLogger {
+  final public var level: DavoiceTTS.SVLogLevel
+  public init(level: DavoiceTTS.SVLogLevel = .trace)
+  final public func log(_ level: DavoiceTTS.SVLogLevel, _ tag: Swift.String, _ msg: Swift.String)
+  @objc deinit
+}
+public struct SpeakerVerificationConfig : Swift.Codable {
+  public var modelPath: Swift.String
+  public var sampleRate: Swift.Int
+  public var numMelBins: Swift.Int
+  public var cmn: Swift.Bool
+  public var frameLengthMs: Swift.Float
+  public var frameShiftMs: Swift.Float
+  public var nFFT: Swift.Int
+  public var decisionThreshold: Swift.Float
+  public var expectedLayoutBDT: Swift.Bool
+  public var frameSize: Swift.Int
+  public var tailSeconds: Swift.Float
+  public var maxTailSeconds: Swift.Float
+  public var meanComboEnabled: Swift.Bool
+  public var meanComboMaxK: Swift.Int
+  public var meanComboMaxTotal: Swift.Int
+  public var logLevel: DavoiceTTS.SVLogLevel
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(modelPath: Swift.String, sampleRate: Swift.Int = 16_000, numMelBins: Swift.Int = 80, cmn: Swift.Bool = true, frameLengthMs: Swift.Float = 25.0, frameShiftMs: Swift.Float = 10.0, nFFT: Swift.Int = 512, decisionThreshold: Swift.Float = 0.35, expectedLayoutBDT: Swift.Bool = false, frameSize: Swift.Int = 1280, tailSeconds: Swift.Float = 2.0, maxTailSeconds: Swift.Float = 3.0, meanComboEnabled: Swift.Bool = true, meanComboMaxK: Swift.Int = 3, meanComboMaxTotal: Swift.Int = 2000, logLevel: DavoiceTTS.SVLogLevel = .off)
+}
+public struct SpeakerEnrollment : Swift.Codable {
+  public let enrollmentId: Swift.String
+  public let createdAtEpochMs: Swift.Int64
+  public let configSnapshot: DavoiceTTS.SpeakerVerificationConfig
+  public let enrolledEmbeddings: [[Swift.Float]]
+  public let meanEmbedding: [Swift.Float]
+  public let meanComboEmbeddings: [[Swift.Float]]
+  public let meanComboLabels: [Swift.String]
+  public init(enrollmentId: Swift.String, createdAtEpochMs: Swift.Int64, configSnapshot: DavoiceTTS.SpeakerVerificationConfig, enrolledEmbeddings: [[Swift.Float]], meanEmbedding: [Swift.Float], meanComboEmbeddings: [[Swift.Float]] = [], meanComboLabels: [Swift.String] = [])
+  public init(from decoder: any Swift.Decoder) throws
+  public func serialize() throws -> Foundation.Data
+  public static func deserialize(_ data: Foundation.Data) throws -> DavoiceTTS.SpeakerEnrollment
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SVSpeaker {
+  public let id: Swift.String
+  public let enrollment: DavoiceTTS.SpeakerEnrollment
+  public let threshold: Swift.Float
+  public let contentKey: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String, enrollment: DavoiceTTS.SpeakerEnrollment, threshold: Swift.Float? = nil)
+  #endif
+  public static func contentKey(of e: DavoiceTTS.SpeakerEnrollment) -> Swift.String
+}
+public enum SVSpeakerSet {
+  public static let defaultSpeakerId: Swift.String
+  public static func loadEnrollment(jsonOrPath: Swift.String) throws -> DavoiceTTS.SpeakerEnrollment
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func incompatibility(_ e: DavoiceTTS.SpeakerEnrollment, base: DavoiceTTS.SpeakerVerificationConfig, baseDim: Swift.Int) -> Swift.String?
+  #endif
+  public static func upsert(_ list: [DavoiceTTS.SVSpeaker], _ s: DavoiceTTS.SVSpeaker) -> (list: [DavoiceTTS.SVSpeaker], removed: [Swift.String])
+  public static func build(_ items: [DavoiceTTS.SVSpeaker]) -> (list: [DavoiceTTS.SVSpeaker], removed: [Swift.String])
+}
+public struct SVPendingInfo {
+  public let bufferedSamples: Swift.Int
+  public let bufferedSeconds: Swift.Float
+  public let neededSeconds: Swift.Float
+}
+public struct SpeakerVerificationResult {
+  public let scoreBest: Swift.Float
+  public let scoreMean: Swift.Float
+  public let scoreWorst: Swift.Float
+  public let scoreBestRaw: Swift.Float
+  public let scoreBestMeancombo: Swift.Float
+  public let bestKind: Swift.String
+  public let bestId: Swift.String
+  public let isMatch: Swift.Bool
+  public let speakerId: Swift.String?
+  public let speakerScores: [Swift.String : Swift.Float]
+  public let embeddingDim: Swift.Int
+  public let usedSeconds: Swift.Float
+  public let ortRunMs: Swift.Double
+  public let featureMs: Swift.Double
+  public let totalMs: Swift.Double
+}
+public enum SpeakerVerificationOutput {
+  case pending(DavoiceTTS.SVPendingInfo)
+  case result(DavoiceTTS.SpeakerVerificationResult)
+}
+public enum SpeakerVerificationError : Swift.Error, Swift.CustomStringConvertible {
+  case invalidFrameSize(expected: Swift.Int, got: Swift.Int)
+  case enrollmentMissing
+  case emptyAudio
+  case onnx(Swift.String)
+  case feature(Swift.String)
+  public var description: Swift.String {
+    get
+  }
+}
+@objc @objcMembers final public class SpeakerVerificationEngine : ObjectiveC.NSObject {
+  final public let config: DavoiceTTS.SpeakerVerificationConfig
+  final public let logger: any DavoiceTTS.SVLogger
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(config: DavoiceTTS.SpeakerVerificationConfig, logger: (any DavoiceTTS.SVLogger)? = nil) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setEnrollment(_ enrollment: DavoiceTTS.SpeakerEnrollment?)
+  #endif
+  final public func setSpeakers(_ list: [DavoiceTTS.SVSpeaker])
+  final public func currentSpeakers() -> [DavoiceTTS.SVSpeaker]
+  @objc final public func resetStreamingState()
+  final public func processFrame(frame: [Swift.Float]) throws -> DavoiceTTS.SpeakerVerificationOutput
+  final public func verifyWavFileStreaming(path: Swift.String, resetState: Swift.Bool = true) throws -> DavoiceTTS.SpeakerVerificationResult
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(DavoiceSpeakerVerificationRNFacade) final public class SpeakerVerificationRNFacade : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(createEngineWithModelPath:enrollmentJsonPath:options:error:) public static func createEngine(modelPath: Swift.String, enrollmentJsonPath: Swift.String, options: [Swift.String : Any], error outError: Foundation.NSErrorPointer) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(verifyWavWithEngine:wavPath:reset:error:) public static func verifyWav(engine: Any, wavPath: Swift.String, reset: Swift.Bool, error outError: Foundation.NSErrorPointer) -> [Swift.String : Any]?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class TtsV2PCMStream {
+  @objc deinit
+}
+extension DavoiceTTS.DaVoiceTTS.NumberFormatStyle : Swift.Equatable {}
+extension DavoiceTTS.DaVoiceTTS.NumberFormatStyle : Swift.Hashable {}
+extension DavoiceTTS.DaVoiceTTS.NumberFormatStyle : Swift.RawRepresentable {}
+extension DavoiceTTS.SVLogLevel : Swift.Equatable {}
+extension DavoiceTTS.SVLogLevel : Swift.Hashable {}
+extension DavoiceTTS.SVLogLevel : Swift.RawRepresentable {}

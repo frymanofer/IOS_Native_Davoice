@@ -1,0 +1,1445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000BACBB0EA1558B7140C33 = {
+			isa = PBXBuildFile;
+			fileRef = "84BD37385BE0E4EEB93CFB77";
+		};
+		0C2C2D97609266DEB8E39A34 = {
+			isa = PBXBuildFile;
+			fileRef = E899825C2C858F2D78882333;
+		};
+		0F755DBF75C3A0A066FD650C = {
+			isa = PBXBuildFile;
+			fileRef = "3F63F2BF6D3B5B6BDADDD093";
+		};
+		12A968214E10F7A9F98DD697 = {
+			isa = PBXBuildFile;
+			fileRef = "7723F4B95D28E2C32871BD15";
+		};
+		13CE65FC28E0480470B87132 = {
+			isa = PBXBuildFile;
+			fileRef = "8CB3C7FAEE956C8F0E98501C";
+		};
+		188382C53774D807959FB37D = {
+			isa = PBXBuildFile;
+			fileRef = "2BAAAF530D4FD873C07B1A99";
+		};
+		1E196623227F9CA6C8CB820D = {
+			isa = PBXBuildFile;
+			fileRef = "04262C5A71D0F1FBF7CB9940";
+		};
+		38DDB26C784E280195999BD1 = {
+			isa = PBXBuildFile;
+			fileRef = "8C68B73A57B777A48733535C";
+		};
+		392A9C6F7D558283F7533A8A = {
+			isa = PBXBuildFile;
+			fileRef = "2B0FC511BF4904D81B2D4D07";
+		};
+		3C0F766E8C03711D352A3375 = {
+			isa = PBXBuildFile;
+			fileRef = "64A87993915B123FA4C15EBD";
+		};
+		42978C94BFCF5B5FE07F6284 = {
+			isa = PBXBuildFile;
+			fileRef = "1FBB86718F6A7C015B394B7C";
+		};
+		4448E501DE6AE389919E0D1B = {
+			isa = PBXBuildFile;
+			fileRef = E3ADB57F348863F4CC2B8A04;
+		};
+		49419E304E9E6B36487C9804 = {
+			isa = PBXBuildFile;
+			fileRef = C430E6074276814237052075;
+		};
+		51EFE625DD3ACAB2115D3EFE = {
+			isa = PBXBuildFile;
+			fileRef = CBCC60294E0414213C6F711C;
+		};
+		58747E3CED6750E017FE9F3B = {
+			isa = PBXBuildFile;
+			fileRef = "7FCE81318ABDB3DE108CA21A";
+		};
+		5C4791E5437CA74C0C9E5BE5 = {
+			isa = PBXBuildFile;
+			fileRef = "1D48E4D148C0F270215F423D";
+		};
+		5D417FAD30D4595B686BA5BF = {
+			isa = PBXBuildFile;
+			fileRef = "841334FC6D6EDB5ADA7D1163";
+		};
+		5F2CB3A2EAC08C41DD374DD1 = {
+			isa = PBXBuildFile;
+			fileRef = "3D61470FC3BDD5EC40213015";
+		};
+		65B140491479DD371D27909B = {
+			isa = PBXBuildFile;
+			fileRef = B78757B58A1C09FC79770F39;
+		};
+		68B98566FD8E9846D21F7DA5 = {
+			isa = PBXBuildFile;
+			fileRef = C98E8D3BE661A5FB34457D1D;
+		};
+		69F42FF764F1A305992864C4 = {
+			isa = PBXBuildFile;
+			fileRef = "5C682E83660C6A7AD326025C";
+		};
+		6AD2C9DC6692B0521442415F = {
+			isa = PBXBuildFile;
+			fileRef = "29AFAD9AC63BAD30B7E55BD2";
+		};
+		6EB6C8D194B7305B1279B64A = {
+			isa = PBXBuildFile;
+			fileRef = "5C97D553F5BC17AC3BA05D6B";
+		};
+		7468A4114C8A1F6424A9B07E = {
+			isa = PBXBuildFile;
+			fileRef = B83463EB2428B733E1A118EF;
+		};
+		76F7BB75D11FC76B74107EFC = {
+			isa = PBXBuildFile;
+			fileRef = C99D5A0AAD233751FEF39D08;
+		};
+		7A535661A5AD1D2DEC626E25 = {
+			isa = PBXBuildFile;
+			fileRef = "17EE507E2A293371203D3451";
+		};
+		7A6A3B15387B8D6ECD6431F5 = {
+			isa = PBXBuildFile;
+			fileRef = "60671C4B2D9776A2EBD2D990";
+		};
+		7B06598F5C2DDDCAB08DA2D5 = {
+			isa = PBXBuildFile;
+			fileRef = D966E157A58C3643995CDAD2;
+		};
+		8A3F83B86968D3AB185C4ED7 = {
+			isa = PBXBuildFile;
+			fileRef = "498609DC8E6AC3C654EB8264";
+		};
+		8B967042571751525F9B10DD = {
+			isa = PBXBuildFile;
+			fileRef = F5E766C4EDD63953985DEABE;
+		};
+		8C4CBC293C9812F960D7157B = {
+			isa = PBXBuildFile;
+			fileRef = "830A5B9F5F6571D7C4CD5727";
+		};
+		9364754B78A3F79DB87282D3 = {
+			isa = PBXBuildFile;
+			fileRef = "495DCF78212FC12946E49FC0";
+		};
+		99905F50A2222AF3A6D76159 = {
+			isa = PBXBuildFile;
+			fileRef = B85EB67613959CE02660E575;
+		};
+		A529511FA57EB52289EAE87F = {
+			isa = PBXBuildFile;
+			fileRef = "24B27669E1AD72AAB312C2E7";
+		};
+		A7C2998718B90BB6EC2229CD = {
+			isa = PBXBuildFile;
+			fileRef = C394D1A0527C3636AE907C8B;
+		};
+		A9E4C80154F5169E4099EA9A = {
+			isa = PBXBuildFile;
+			fileRef = E584829675FB25C5DD2349CE;
+		};
+		AA12EBFE73A16C612F6B8DC6 = {
+			isa = PBXBuildFile;
+			fileRef = "0BE0B7CD0FF5457968003A41";
+		};
+		AA6D55A0FD06881D774B9198 = {
+			isa = PBXBuildFile;
+			fileRef = "5A3D55E0BB706A4867D320FF";
+		};
+		ABF90C034D6AC331143B814F = {
+			isa = PBXBuildFile;
+			fileRef = "394549C1CA6DE7984AE3C77B";
+		};
+		AD953307BF6BE0A6E0CBD7C3 = {
+			isa = PBXBuildFile;
+			fileRef = "1E97AB6F7C89FFBED16478F1";
+		};
+		ADA038C4EAD2500B6A0F06F3 = {
+			isa = PBXBuildFile;
+			fileRef = E761BDE00348D835F618399A;
+		};
+		B60575B773611EBBFD60CCFF = {
+			isa = PBXBuildFile;
+			fileRef = "3BF815238574F0E9ADB0341A";
+		};
+		B73ACB6DCE285C9E9DD15A4D = {
+			isa = PBXBuildFile;
+			fileRef = "044242666A2E0100386FE7B7";
+		};
+		BC7B949E48A8E61BEC190334 = {
+			isa = PBXBuildFile;
+			fileRef = "05F13C927FA60ACB2F19A2E9";
+		};
+		C0C66ED3C91C4A0FA3FB2975 = {
+			isa = PBXBuildFile;
+			fileRef = "9DCBD7F0AD0EF651D90BAE57";
+		};
+		C4A994482E2755352F9C2FD4 = {
+			isa = PBXBuildFile;
+			fileRef = F2CC4B868E9BADBD766B9245;
+		};
+		CB9B4DD474DEB708C90FBE77 = {
+			isa = PBXBuildFile;
+			fileRef = FB9361C655038C7145056E0D;
+		};
+		CC5C3F0D1E3ABD7C99039051 = {
+			isa = PBXBuildFile;
+			fileRef = "54110BE99D1021A9FD45B23B";
+		};
+		CC84720C7CE8C6AFE3F65B73 = {
+			isa = PBXBuildFile;
+			fileRef = "500F10A20EB5A128E338B517";
+		};
+		CF001EAD4DFC9F68354D0D2C = {
+			isa = PBXBuildFile;
+			fileRef = "05E669FD631B9ABDDDAD45C4";
+		};
+		CF27717E7A782C93D033A672 = {
+			isa = PBXBuildFile;
+			fileRef = EA5645A0EA4FC0EFC9E931FE;
+		};
+		D0785B150B73659AF76269BF = {
+			isa = PBXBuildFile;
+			fileRef = "839EA08A1513309990B7EE72";
+		};
+		D15C7DC989EB70893C502D11 = {
+			isa = PBXBuildFile;
+			fileRef = E31269FAEC92D560403E9F15;
+		};
+		D3E72C9531843F98431650A7 = {
+			isa = PBXBuildFile;
+			fileRef = E6D5316164682A6E9A1B1510;
+		};
+		D708CF17EDB5280260D54960 = {
+			isa = PBXBuildFile;
+			fileRef = "3C85D31A561C2B0A8051A5F8";
+		};
+		D8A15CD23B99FB53C13F2612 = {
+			isa = PBXBuildFile;
+			fileRef = "180594A915CB2732B1F536D6";
+		};
+		D8E9EC3500F1C41980A7BF4E = {
+			isa = PBXBuildFile;
+			fileRef = "6281E0D716FA55D6660164B7";
+		};
+		D926821924454736D6BC0353 = {
+			isa = PBXBuildFile;
+			fileRef = "1F61A74DB25C0C62A3CF96CC";
+		};
+		DB79F8FE60508D0E24294BF1 = {
+			isa = PBXBuildFile;
+			fileRef = DEF835252491D44BFC1E0521;
+		};
+		DC33045A9DC138AC5C6ECFCC = {
+			isa = PBXBuildFile;
+			fileRef = C37ACBB56F07A27DFF590EFB;
+		};
+		DF07A4BCAA6A948B84FA3E98 = {
+			isa = PBXBuildFile;
+			fileRef = "8A2B25ED0179AB4618F66FEE";
+		};
+		EAB13A7FA00B91500529FFC0 = {
+			isa = PBXBuildFile;
+			fileRef = "37014147A61F1D1B4B4D062B";
+		};
+		EE07791071EA31C23F3E04FF = {
+			isa = PBXBuildFile;
+			fileRef = "044B6FC94CD613DA76957820";
+		};
+		EF25B3CC07394EB4C274BEE6 = {
+			isa = PBXBuildFile;
+			fileRef = "306ADE40739678113EEAA401";
+		};
+		F0B59FB3450A921AE6D54347 = {
+			isa = PBXBuildFile;
+			fileRef = E43204AA9BC702B1D07115B5;
+		};
+		F0FBF9AAD246A24D16177DC9 = {
+			isa = PBXBuildFile;
+			fileRef = C89F4A9B32470E1E977FCD31;
+		};
+		F13AB6F9BF7E395544A4EB39 = {
+			isa = PBXBuildFile;
+			fileRef = "76CDAFAC95DACC4A3B461EAD";
+		};
+		F21128F62E4628704EE06C05 = {
+			isa = PBXBuildFile;
+			productRef = "46512A526FC86DE830EB6D0A";
+		};
+		FAB44D572A5D2E2DAFDC5E1A = {
+			isa = PBXBuildFile;
+			fileRef = FE2B8477008BA01FACBB313A;
+		};
+		FE246733FE2FFFBBF0980469 = {
+			isa = PBXBuildFile;
+			fileRef = "89DA431B607A6B961B4167A8";
+		};
+		FF6592FEF75664C047A0917C = {
+			isa = PBXBuildFile;
+			fileRef = "09E11F790A778C4683A87163";
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5B45BA5E6B851DB35633B2 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9323A99D7600D440DBFF05A;
+			proxyType = "1";
+			remoteGlobalIDString = "551CA644DA9683611BAD2077";
+			remoteInfo = CarAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01524188B0D9FFE107EFFF41 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = STTBridge.h;
+			sourceTree = "<group>";
+		};
+		04262C5A71D0F1FBF7CB9940 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Metal.framework;
+			path = System/Library/Frameworks/Metal.framework;
+			sourceTree = SDKROOT;
+		};
+		044242666A2E0100386FE7B7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BasicLanguage.swift;
+			sourceTree = "<group>";
+		};
+		044B6FC94CD613DA76957820 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = MetalKit.framework;
+			path = System/Library/Frameworks/MetalKit.framework;
+			sourceTree = SDKROOT;
+		};
+		05E669FD631B9ABDDDAD45C4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TestSupport.swift;
+			sourceTree = "<group>";
+		};
+		05F13C927FA60ACB2F19A2E9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = WakewordController.swift;
+			sourceTree = "<group>";
+		};
+		09E11F790A778C4683A87163 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AgentTypes.swift;
+			sourceTree = "<group>";
+		};
+		0BE0B7CD0FF5457968003A41 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Theme.swift;
+			sourceTree = "<group>";
+		};
+		12B7331800ED364FC77B6C64 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = SpeechBridge.h;
+			sourceTree = "<group>";
+		};
+		17EE507E2A293371203D3451 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ConversationTests.swift;
+			sourceTree = "<group>";
+		};
+		180594A915CB2732B1F536D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = "words_flattened.pt-BR.txt";
+			sourceTree = "<group>";
+		};
+		1D48E4D148C0F270215F423D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarScreen.swift;
+			sourceTree = "<group>";
+		};
+		1E97AB6F7C89FFBED16478F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = DVSpeakerVerificationCore.m;
+			sourceTree = "<group>";
+		};
+		1F61A74DB25C0C62A3CF96CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreML.framework;
+			path = System/Library/Frameworks/CoreML.framework;
+			sourceTree = SDKROOT;
+		};
+		1FBB86718F6A7C015B394B7C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarLlm.swift;
+			sourceTree = "<group>";
+		};
+		24B27669E1AD72AAB312C2E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AppLanguage.swift;
+			sourceTree = "<group>";
+		};
+		29AFAD9AC63BAD30B7E55BD2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = words_flattened.txt;
+			sourceTree = "<group>";
+		};
+		2B0FC511BF4904D81B2D4D07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = DaVoiceTTSBridge.m;
+			sourceTree = "<group>";
+		};
+		2BAAAF530D4FD873C07B1A99 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Texts.swift;
+			sourceTree = "<group>";
+		};
+		306ADE40739678113EEAA401 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = hood_background.jpg;
+			sourceTree = "<group>";
+		};
+		360A211DBD62411A46CB6B44 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DVWakeWordCore.h;
+			sourceTree = "<group>";
+		};
+		37014147A61F1D1B4B4D062B = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		394549C1CA6DE7984AE3C77B = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = car;
+			sourceTree = "<group>";
+		};
+		3BF815238574F0E9ADB0341A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ModelStore.swift;
+			sourceTree = "<group>";
+		};
+		3C85D31A561C2B0A8051A5F8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Autopilot.swift;
+			sourceTree = "<group>";
+		};
+		3D61470FC3BDD5EC40213015 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.xcframework;
+			path = KeyWordDetection.xcframework;
+			sourceTree = "<group>";
+		};
+		3F63F2BF6D3B5B6BDADDD093 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CurrentSpeaker.swift;
+			sourceTree = "<group>";
+		};
+		495DCF78212FC12946E49FC0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Confidence.swift;
+			sourceTree = "<group>";
+		};
+		498609DC8E6AC3C654EB8264 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarAgentApp.swift;
+			sourceTree = "<group>";
+		};
+		500F10A20EB5A128E338B517 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarState.swift;
+			sourceTree = "<group>";
+		};
+		54110BE99D1021A9FD45B23B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EndOfSpeech.swift;
+			sourceTree = "<group>";
+		};
+		54D322C37E4A28890A71A19A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = "SpeechBridge+Swift.h";
+			sourceTree = "<group>";
+		};
+		5A28201F821A27419E4A0BE9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = "CarAgent-Bridging-Header.h";
+			sourceTree = "<group>";
+		};
+		5A3D55E0BB706A4867D320FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarTools.swift;
+			sourceTree = "<group>";
+		};
+		5C682E83660C6A7AD326025C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ConversationController.swift;
+			sourceTree = "<group>";
+		};
+		5C736C2D463E4D66F2880084 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DVSpeakerVerificationCore.h;
+			sourceTree = "<group>";
+		};
+		5C97D553F5BC17AC3BA05D6B = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = agent_automotive;
+			sourceTree = "<group>";
+		};
+		60671C4B2D9776A2EBD2D990 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Screens.swift;
+			sourceTree = "<group>";
+		};
+		60F831267F0CD919B7A5E3C1 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = "0";
+			path = CarAgent.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6281E0D716FA55D6660164B7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = DVRNShim.m;
+			sourceTree = "<group>";
+		};
+		6414D49372AB6C0C7E0738E7 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = "0";
+			path = CarAgentTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		64A87993915B123FA4C15EBD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VoiceConfig.swift;
+			sourceTree = "<group>";
+		};
+		76CDAFAC95DACC4A3B461EAD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LanguagePacks.swift;
+			sourceTree = "<group>";
+		};
+		7723F4B95D28E2C32871BD15 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarDrawing.swift;
+			sourceTree = "<group>";
+		};
+		7FCE81318ABDB3DE108CA21A = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AVFoundation.framework;
+			path = System/Library/Frameworks/AVFoundation.framework;
+			sourceTree = SDKROOT;
+		};
+		830A5B9F5F6571D7C4CD5727 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		839EA08A1513309990B7EE72 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = STTBridge.m;
+			sourceTree = "<group>";
+		};
+		841334FC6D6EDB5ADA7D1163 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.xcframework;
+			path = DavoiceLLM.xcframework;
+			sourceTree = "<group>";
+		};
+		84BD37385BE0E4EEB93CFB77 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.xcframework;
+			path = DavoiceTTS.xcframework;
+			sourceTree = "<group>";
+		};
+		89DA431B607A6B961B4167A8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EnrollmentSentences.swift;
+			sourceTree = "<group>";
+		};
+		8A2B25ED0179AB4618F66FEE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarToolsTests.swift;
+			sourceTree = "<group>";
+		};
+		8C68B73A57B777A48733535C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = JSON.swift;
+			sourceTree = "<group>";
+		};
+		8CB3C7FAEE956C8F0E98501C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AgentPack.swift;
+			sourceTree = "<group>";
+		};
+		9DCBD7F0AD0EF651D90BAE57 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SpeakerVerificationController.swift;
+			sourceTree = "<group>";
+		};
+		9E53AA5807D519939986E810 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DVRNShim.h;
+			sourceTree = "<group>";
+		};
+		B78757B58A1C09FC79770F39 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Transcript.swift;
+			sourceTree = "<group>";
+		};
+		B83463EB2428B733E1A118EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = SpeechBridge.m;
+			sourceTree = "<group>";
+		};
+		B85EB67613959CE02660E575 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Positions.swift;
+			sourceTree = "<group>";
+		};
+		C37ACBB56F07A27DFF590EFB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarUndo.swift;
+			sourceTree = "<group>";
+		};
+		C394D1A0527C3636AE907C8B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AgentClient.swift;
+			sourceTree = "<group>";
+		};
+		C430E6074276814237052075 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MediaQuery.swift;
+			sourceTree = "<group>";
+		};
+		C89F4A9B32470E1E977FCD31 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = StateAnswers.swift;
+			sourceTree = "<group>";
+		};
+		C98E8D3BE661A5FB34457D1D = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = sv.dm;
+			sourceTree = "<group>";
+		};
+		C99D5A0AAD233751FEF39D08 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = davoice_emblem.png;
+			sourceTree = "<group>";
+		};
+		CBCC60294E0414213C6F711C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Re.swift;
+			sourceTree = "<group>";
+		};
+		D966E157A58C3643995CDAD2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ConversationSettings.swift;
+			sourceTree = "<group>";
+		};
+		DEF835252491D44BFC1E0521 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = hey_davoice_model_28_06042026.dm;
+			sourceTree = "<group>";
+		};
+		E31269FAEC92D560403E9F15 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = DVWakeWordCore.m;
+			sourceTree = "<group>";
+		};
+		E3ADB57F348863F4CC2B8A04 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Speech.framework;
+			path = System/Library/Frameworks/Speech.framework;
+			sourceTree = SDKROOT;
+		};
+		E43204AA9BC702B1D07115B5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CarAgentMain.swift;
+			sourceTree = "<group>";
+		};
+		E584829675FB25C5DD2349CE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SharedFixturesTests.swift;
+			sourceTree = "<group>";
+		};
+		E6D5316164682A6E9A1B1510 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			path = layer1.dm;
+			sourceTree = "<group>";
+		};
+		E761BDE00348D835F618399A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SpeechComposer.swift;
+			sourceTree = "<group>";
+		};
+		E899825C2C858F2D78882333 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		EA5645A0EA4FC0EFC9E931FE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Settings.swift;
+			sourceTree = "<group>";
+		};
+		F1E8E83E099269002E012D42 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = DaVoiceTTSBridge.h;
+			sourceTree = "<group>";
+		};
+		F2CC4B868E9BADBD766B9245 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SpeechController.swift;
+			sourceTree = "<group>";
+		};
+		F5E766C4EDD63953985DEABE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = FollowUp.swift;
+			sourceTree = "<group>";
+		};
+		F81CC1997B2B19EFB6593E89 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		FB9361C655038C7145056E0D = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.json;
+			path = language_packs.json;
+			sourceTree = "<group>";
+		};
+		FE2B8477008BA01FACBB313A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Chrome.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFA1C66895CB10711FA0474 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				"5F2CB3A2EAC08C41DD374DD1",
+				"0000BACBB0EA1558B7140C33",
+				"5D417FAD30D4595B686BA5BF",
+				"58747E3CED6750E017FE9F3B",
+				EAB13A7FA00B91500529FFC0,
+				D926821924454736D6BC0353,
+				"1E196623227F9CA6C8CB820D",
+				EE07791071EA31C23F3E04FF,
+				"4448E501DE6AE389919E0D1B",
+				F21128F62E4628704EE06C05,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		6939FA77CB4D25F504160FA0 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BD2905D5DA5674C2731418 = {
+			isa = PBXGroup;
+			children = (
+				"5A28201F821A27419E4A0BE9",
+				"9E53AA5807D519939986E810",
+				"6281E0D716FA55D6660164B7",
+				"5C736C2D463E4D66F2880084",
+				"1E97AB6F7C89FFBED16478F1",
+				"360A211DBD62411A46CB6B44",
+				E31269FAEC92D560403E9F15,
+				F1E8E83E099269002E012D42,
+				"2B0FC511BF4904D81B2D4D07",
+				"01524188B0D9FFE107EFFF41",
+				"839EA08A1513309990B7EE72",
+				"54D322C37E4A28890A71A19A",
+				"12B7331800ED364FC77B6C64",
+				B83463EB2428B733E1A118EF,
+			);
+			path = Bridges;
+			sourceTree = "<group>";
+		};
+		0FE8E6EBCF64E734D99AD3B8 = {
+			isa = PBXGroup;
+			children = (
+				"3C85D31A561C2B0A8051A5F8",
+				"498609DC8E6AC3C654EB8264",
+				E43204AA9BC702B1D07115B5,
+				F81CC1997B2B19EFB6593E89,
+				"64A87993915B123FA4C15EBD",
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		135FDFB87B4F9C08C21C3BD5 = {
+			isa = PBXGroup;
+			children = (
+				"5C682E83660C6A7AD326025C",
+				D966E157A58C3643995CDAD2,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		39FB67E3E9FEF43F3D101639 = {
+			isa = PBXGroup;
+			children = (
+				A4F132B2DBB58A7F101A8E3E,
+				"4F126F67D64A8B74D6EF813B",
+				E719AD6556085682AD5ACC90,
+				"7F1F1A540343409C8CF5A996",
+				D5D5938D3BCEF9EF8661F1BF,
+			);
+			sourceTree = "<group>";
+		};
+		3D058802992D3EC153E5455D = {
+			isa = PBXGroup;
+			children = (
+				"7723F4B95D28E2C32871BD15",
+				"1D48E4D148C0F270215F423D",
+				FE2B8477008BA01FACBB313A,
+				"60671C4B2D9776A2EBD2D990",
+				EA5645A0EA4FC0EFC9E931FE,
+				"0BE0B7CD0FF5457968003A41",
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4F126F67D64A8B74D6EF813B = {
+			isa = PBXGroup;
+			children = (
+				"8A2B25ED0179AB4618F66FEE",
+				"17EE507E2A293371203D3451",
+				E584829675FB25C5DD2349CE,
+				"05E669FD631B9ABDDDAD45C4",
+				E899825C2C858F2D78882333,
+			);
+			path = CarAgentTests;
+			sourceTree = "<group>";
+		};
+		52BBB3438B1E4DCEE26697CE = {
+			isa = PBXGroup;
+			children = (
+				"5C97D553F5BC17AC3BA05D6B",
+				"394549C1CA6DE7984AE3C77B",
+				"830A5B9F5F6571D7C4CD5727",
+				DEF835252491D44BFC1E0521,
+				B4E96206F2E8D8728747A925,
+				FB9361C655038C7145056E0D,
+				E6D5316164682A6E9A1B1510,
+				C98E8D3BE661A5FB34457D1D,
+				"180594A915CB2732B1F536D6",
+				"29AFAD9AC63BAD30B7E55BD2",
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6AD4FCFDA809C2EF1258F304 = {
+			isa = PBXGroup;
+			children = (
+				"8C68B73A57B777A48733535C",
+				CBCC60294E0414213C6F711C,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7C575257D0C9A17095F04CDD = {
+			isa = PBXGroup;
+			children = (
+				"3F63F2BF6D3B5B6BDADDD093",
+				"89DA431B607A6B961B4167A8",
+			);
+			path = Speaker;
+			sourceTree = "<group>";
+		};
+		7F1F1A540343409C8CF5A996 = {
+			isa = PBXGroup;
+			children = (
+				"7FCE81318ABDB3DE108CA21A",
+				"37014147A61F1D1B4B4D062B",
+				"1F61A74DB25C0C62A3CF96CC",
+				"04262C5A71D0F1FBF7CB9940",
+				"044B6FC94CD613DA76957820",
+				E3ADB57F348863F4CC2B8A04,
+			);
+			name = "System frameworks";
+			sourceTree = "<group>";
+		};
+		A4F132B2DBB58A7F101A8E3E = {
+			isa = PBXGroup;
+			children = (
+				C08FB5ED1680553C34AF326A,
+				"0FE8E6EBCF64E734D99AD3B8",
+				"03BD2905D5DA5674C2731418",
+				F2AD1092A45635CF758570F2,
+				"135FDFB87B4F9C08C21C3BD5",
+				A7E8735235B590902AA71093,
+				"52BBB3438B1E4DCEE26697CE",
+				"7C575257D0C9A17095F04CDD",
+				EC5183BC21BAEC791BA35208,
+				"3D058802992D3EC153E5455D",
+				"6AD4FCFDA809C2EF1258F304",
+				C285A9ABF798F3C5E14D0961,
+			);
+			path = CarAgent;
+			sourceTree = "<group>";
+		};
+		A7E8735235B590902AA71093 = {
+			isa = PBXGroup;
+			children = (
+				"24B27669E1AD72AAB312C2E7",
+				"54110BE99D1021A9FD45B23B",
+				"2BAAAF530D4FD873C07B1A99",
+				B78757B58A1C09FC79770F39,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		B4E96206F2E8D8728747A925 = {
+			isa = PBXGroup;
+			children = (
+				C99D5A0AAD233751FEF39D08,
+				"306ADE40739678113EEAA401",
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C08FB5ED1680553C34AF326A = {
+			isa = PBXGroup;
+			children = (
+				C394D1A0527C3636AE907C8B,
+				"8CB3C7FAEE956C8F0E98501C",
+				"09E11F790A778C4683A87163",
+				"1FBB86718F6A7C015B394B7C",
+				"495DCF78212FC12946E49FC0",
+				"3BF815238574F0E9ADB0341A",
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		C285A9ABF798F3C5E14D0961 = {
+			isa = PBXGroup;
+			children = (
+				"9DCBD7F0AD0EF651D90BAE57",
+				F2CC4B868E9BADBD766B9245,
+				"05F13C927FA60ACB2F19A2E9",
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		D5D5938D3BCEF9EF8661F1BF = {
+			isa = PBXGroup;
+			children = (
+				"60F831267F0CD919B7A5E3C1",
+				"6414D49372AB6C0C7E0738E7",
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E719AD6556085682AD5ACC90 = {
+			isa = PBXGroup;
+			children = (
+				"3D61470FC3BDD5EC40213015",
+				"84BD37385BE0E4EEB93CFB77",
+				"841334FC6D6EDB5ADA7D1163",
+			);
+			name = "DaVoice frameworks";
+			path = ../libs;
+			sourceTree = "<group>";
+		};
+		EC5183BC21BAEC791BA35208 = {
+			isa = PBXGroup;
+			children = (
+				"76CDAFAC95DACC4A3B461EAD",
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		F2AD1092A45635CF758570F2 = {
+			isa = PBXGroup;
+			children = (
+				"044242666A2E0100386FE7B7",
+				"500F10A20EB5A128E338B517",
+				"5A3D55E0BB706A4867D320FF",
+				C37ACBB56F07A27DFF590EFB,
+				F5E766C4EDD63953985DEABE,
+				C430E6074276814237052075,
+				B85EB67613959CE02660E575,
+				E761BDE00348D835F618399A,
+				C89F4A9B32470E1E977FCD31,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EDA443AA3756D5A0299764 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B7C1BF7B6838B8C6069A0D;
+			buildPhases = (
+				"39D3C1060CEEB2D836D1F012",
+				"6939FA77CB4D25F504160FA0",
+				CFAEE2AEFD4D3BE74F371C0B,
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+				"3D8A5CBCDC08EB0F2F0E7E0D",
+			);
+			name = CarAgentTests;
+			productName = CarAgentTests;
+			productReference = "6414D49372AB6C0C7E0738E7";
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		551CA644DA9683611BAD2077 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E729A2DB63AEDB04AF7BF852;
+			buildPhases = (
+				"08926604B9D6E867EEE187C0",
+				"1CFA1C66895CB10711FA0474",
+				"747F4F7FE311FD161F8F61A0",
+			);
+			buildRules = (
+
+			);
+			dependencies = (
+
+			);
+			name = CarAgent;
+			packageProductDependencies = (
+				"46512A526FC86DE830EB6D0A",
+			);
+			productName = CarAgent;
+			productReference = "60F831267F0CD919B7A5E3C1";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9323A99D7600D440DBFF05A = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = "1";
+				LastSwiftUpdateCheck = "2600";
+				LastUpgradeCheck = "2600";
+				TargetAttributes = {
+					"03EDA443AA3756D5A0299764" = {
+						TestTargetID = "551CA644DA9683611BAD2077";
+					};
+				};
+			};
+			buildConfigurationList = "8FB36A5DD1636DAB7A289B49";
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = "0";
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = "39FB67E3E9FEF43F3D101639";
+			packageReferences = (
+				B8D8D684C68C7C063D12F838,
+			);
+			productRefGroup = D5D5938D3BCEF9EF8661F1BF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"551CA644DA9683611BAD2077",
+				"03EDA443AA3756D5A0299764",
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		747F4F7FE311FD161F8F61A0 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				"6EB6C8D194B7305B1279B64A",
+				ABF90C034D6AC331143B814F,
+				"8C4CBC293C9812F960D7157B",
+				DB79F8FE60508D0E24294BF1,
+				"76F7BB75D11FC76B74107EFC",
+				EF25B3CC07394EB4C274BEE6,
+				CB9B4DD474DEB708C90FBE77,
+				D3E72C9531843F98431650A7,
+				"68B98566FD8E9846D21F7DA5",
+				D8A15CD23B99FB53C13F2612,
+				"6AD2C9DC6692B0521442415F",
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		CFAEE2AEFD4D3BE74F371C0B = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				"0C2C2D97609266DEB8E39A34",
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08926604B9D6E867EEE187C0 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				A7C2998718B90BB6EC2229CD,
+				"13CE65FC28E0480470B87132",
+				FF6592FEF75664C047A0917C,
+				"42978C94BFCF5B5FE07F6284",
+				"9364754B78A3F79DB87282D3",
+				B60575B773611EBBFD60CCFF,
+				D708CF17EDB5280260D54960,
+				"8A3F83B86968D3AB185C4ED7",
+				F0B59FB3450A921AE6D54347,
+				"3C0F766E8C03711D352A3375",
+				D8E9EC3500F1C41980A7BF4E,
+				AD953307BF6BE0A6E0CBD7C3,
+				D15C7DC989EB70893C502D11,
+				"392A9C6F7D558283F7533A8A",
+				D0785B150B73659AF76269BF,
+				"7468A4114C8A1F6424A9B07E",
+				B73ACB6DCE285C9E9DD15A4D,
+				CC84720C7CE8C6AFE3F65B73,
+				AA6D55A0FD06881D774B9198,
+				DC33045A9DC138AC5C6ECFCC,
+				"8B967042571751525F9B10DD",
+				"49419E304E9E6B36487C9804",
+				"99905F50A2222AF3A6D76159",
+				ADA038C4EAD2500B6A0F06F3,
+				F0FBF9AAD246A24D16177DC9,
+				"69F42FF764F1A305992864C4",
+				"7B06598F5C2DDDCAB08DA2D5",
+				A529511FA57EB52289EAE87F,
+				CC5C3F0D1E3ABD7C99039051,
+				"188382C53774D807959FB37D",
+				"65B140491479DD371D27909B",
+				"0F755DBF75C3A0A066FD650C",
+				FE246733FE2FFFBBF0980469,
+				F13AB6F9BF7E395544A4EB39,
+				"12A968214E10F7A9F98DD697",
+				"5C4791E5437CA74C0C9E5BE5",
+				FAB44D572A5D2E2DAFDC5E1A,
+				"7A6A3B15387B8D6ECD6431F5",
+				CF27717E7A782C93D033A672,
+				AA12EBFE73A16C612F6B8DC6,
+				"38DDB26C784E280195999BD1",
+				"51EFE625DD3ACAB2115D3EFE",
+				C0C66ED3C91C4A0FA3FB2975,
+				C4A994482E2755352F9C2FD4,
+				BC7B949E48A8E61BEC190334,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		39D3C1060CEEB2D836D1F012 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				DF07A4BCAA6A948B84FA3E98,
+				"7A535661A5AD1D2DEC626E25",
+				A9E4C80154F5169E4099EA9A,
+				CF001EAD4DFC9F68354D0D2C,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8A5CBCDC08EB0F2F0E7E0D = {
+			isa = PBXTargetDependency;
+			target = "551CA644DA9683611BAD2077";
+			targetProxy = AB5B45BA5E6B851DB35633B2;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C544B8C9B5A742C22301966 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.davoice.caragent.ios;
+				INFOPLIST_FILE = CarAgent/App/Info.plist;
+				SWIFT_OBJC_BRIDGING_HEADER = "CarAgent/Bridges/CarAgent-Bridging-Header.h";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				MARKETING_VERSION = "1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../libs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-lz",
+					"-lsqlite3",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		42AC22943DC1107BCE0C15F4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.davoice.caragent.ios.tests;
+				GENERATE_INFOPLIST_FILE = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAgent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarAgent";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../libs",
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "CarAgent/Bridges/CarAgent-Bridging-Header.h";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		5916F0AD3E0C4550706ED8BB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.davoice.caragent.ios;
+				INFOPLIST_FILE = CarAgent/App/Info.plist;
+				SWIFT_OBJC_BRIDGING_HEADER = "CarAgent/Bridges/CarAgent-Bridging-Header.h";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				MARKETING_VERSION = "1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../libs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+					"-lz",
+					"-lsqlite3",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ENABLE_BITCODE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		A5D561DDFE79D74CED820A63 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = io.davoice.caragent.ios.tests;
+				GENERATE_INFOPLIST_FILE = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarAgent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarAgent";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../libs",
+				);
+				SWIFT_OBJC_BRIDGING_HEADER = "CarAgent/Bridges/CarAgent-Bridging-Header.h";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		E6DA27CE70EF1114E8CC1246 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = "15.1";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6670A16AF0BA9EF9E38CEB0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = "15.1";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB36A5DD1636DAB7A289B49 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6670A16AF0BA9EF9E38CEB0,
+				E6DA27CE70EF1114E8CC1246,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = Release;
+		};
+		E729A2DB63AEDB04AF7BF852 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"0C544B8C9B5A742C22301966",
+				"5916F0AD3E0C4550706ED8BB",
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = Release;
+		};
+		F1B7C1BF7B6838B8C6069A0D = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"42AC22943DC1107BCE0C15F4",
+				A5D561DDFE79D74CED820A63,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B8D8D684C68C7C063D12F838 = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../DaVoiceOnnxRuntime;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46512A526FC86DE830EB6D0A = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8D8D684C68C7C063D12F838;
+			productName = DaVoiceOnnxRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E9323A99D7600D440DBFF05A;
+}

@@ -1,0 +1,4 @@
+framework module DavoiceTTS {
+  header "DavoiceTTS-Swift.h"
+  requires objc
+}

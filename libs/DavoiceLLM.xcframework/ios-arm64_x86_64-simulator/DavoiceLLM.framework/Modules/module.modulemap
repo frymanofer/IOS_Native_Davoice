@@ -1,0 +1,4 @@
+framework module DavoiceLLM {
+  header "DavoiceLLM-Swift.h"
+  requires objc
+}

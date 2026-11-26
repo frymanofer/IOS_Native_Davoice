@@ -1,0 +1,413 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KeyWordDetection
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFAudio
+import AVFoundation
+import Accelerate
+import AudioToolbox
+import CommonCrypto
+import Foundation
+@_exported import KeyWordDetection
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import onnxruntime_objc
+import os
+public class AVAudioWrapperBufferCE {
+  public init(size: Swift.Int)
+  public func write(samples: [Swift.Float])
+  public func read(count: Swift.Int) -> [Swift.Float]
+  public func availableSamples() -> Swift.Int
+  @objc deinit
+}
+public typealias AVAudioWrapperFrameCallback = ([Swift.Float]) -> Swift.Void
+public class AVAudioWrapperFrameListener {
+  public init(_ callback: @escaping KeyWordDetection.AVAudioWrapperFrameCallback)
+  public func onFrame(_ frame: [Swift.Float])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AVAudioWrapperCE {
+  public static let instance: KeyWordDetection.AVAudioWrapperCE
+  public var isRecording: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var frameLength: Swift.UInt32? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var sampleRate: Swift.UInt32? {
+    get
+  }
+  #endif
+  public var numFrameListeners: Swift.Int {
+    get
+  }
+  public static var hasRecordAudioPermission: Swift.Bool {
+    get
+  }
+  public static func requestRecordAudioPermission(_ response: @escaping (Swift.Bool) -> Swift.Void)
+  public func addFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
+  public func removeFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
+  public func clearFrameListeners()
+  public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
+  public var isSessionPaused: Swift.Bool {
+    get
+  }
+  public func setLightPause(_ paused: Swift.Bool)
+  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32, noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true)
+  public func stop() throws
+  public func pauseSession() -> Swift.Bool
+  public func resumeSession() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class AppStateTracker {
+  public static let shared: KeyWordDetection.AppStateTracker
+  final public var isInBackground: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@objc public protocol SpeakerVerificationNativeDelegate {
+  @objc func svOnboardingProgress(_ info: [Swift.String : Any])
+  @objc func svOnboardingDone(_ info: [Swift.String : Any])
+  @objc func svVerifyResult(_ info: [Swift.String : Any])
+  @objc func svError(_ info: [Swift.String : Any])
+}
+public enum SVLogLevel : Swift.Int, Swift.Codable {
+  case off, error, warn, info, debug, trace
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol SVLogger {
+  func log(_ level: KeyWordDetection.SVLogLevel, _ tag: Swift.String, _ msg: Swift.String)
+}
+final public class SVDefaultLogger : KeyWordDetection.SVLogger {
+  final public var level: KeyWordDetection.SVLogLevel
+  public init(level: KeyWordDetection.SVLogLevel = .off)
+  final public func log(_ level: KeyWordDetection.SVLogLevel, _ tag: Swift.String, _ msg: Swift.String)
+  @objc deinit
+}
+public struct SpeakerVerificationConfig : Swift.Codable {
+  public var modelPath: Swift.String
+  public var sampleRate: Swift.Int
+  public var numMelBins: Swift.Int
+  public var cmn: Swift.Bool
+  public var frameLengthMs: Swift.Float
+  public var frameShiftMs: Swift.Float
+  public var nFFT: Swift.Int
+  public var decisionThreshold: Swift.Float
+  public var expectedLayoutBDT: Swift.Bool
+  public var frameSize: Swift.Int
+  public var tailSeconds: Swift.Float
+  public var maxTailSeconds: Swift.Float
+  public var subWindowSeconds: Swift.Float
+  public var meanComboEnabled: Swift.Bool
+  public var meanComboMaxK: Swift.Int
+  public var meanComboMaxTotal: Swift.Int
+  public var logLevel: KeyWordDetection.SVLogLevel
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(modelPath: Swift.String, sampleRate: Swift.Int = 16_000, numMelBins: Swift.Int = 80, cmn: Swift.Bool = true, frameLengthMs: Swift.Float = 25.0, frameShiftMs: Swift.Float = 10.0, nFFT: Swift.Int = 512, decisionThreshold: Swift.Float = 0.35, expectedLayoutBDT: Swift.Bool = false, frameSize: Swift.Int = 1280, tailSeconds: Swift.Float = 2.0, maxTailSeconds: Swift.Float = 3.0, subWindowSeconds: Swift.Float = 0.5, meanComboEnabled: Swift.Bool = true, meanComboMaxK: Swift.Int = 3, meanComboMaxTotal: Swift.Int = 2000, logLevel: KeyWordDetection.SVLogLevel = .off)
+  public var debugSummary: Swift.String {
+    get
+  }
+}
+public struct SpeakerEnrollment : Swift.Codable {
+  public let enrollmentId: Swift.String
+  public let createdAtEpochMs: Swift.Int64
+  public let configSnapshot: KeyWordDetection.SpeakerVerificationConfig
+  public let enrolledEmbeddings: [[Swift.Float]]
+  public let meanEmbedding: [Swift.Float]
+  public let meanComboEmbeddings: [[Swift.Float]]
+  public let meanComboLabels: [Swift.String]
+  public init(enrollmentId: Swift.String, createdAtEpochMs: Swift.Int64, configSnapshot: KeyWordDetection.SpeakerVerificationConfig, enrolledEmbeddings: [[Swift.Float]], meanEmbedding: [Swift.Float], meanComboEmbeddings: [[Swift.Float]] = [], meanComboLabels: [Swift.String] = [])
+  public init(from decoder: any Swift.Decoder) throws
+  public func serialize() throws -> Foundation.Data
+  public static func deserialize(_ data: Foundation.Data) throws -> KeyWordDetection.SpeakerEnrollment
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct SVSpeaker {
+  public let id: Swift.String
+  public let enrollment: KeyWordDetection.SpeakerEnrollment
+  public let threshold: Swift.Float
+  public let contentKey: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.String, enrollment: KeyWordDetection.SpeakerEnrollment, threshold: Swift.Float? = nil)
+  #endif
+  public static func contentKey(of e: KeyWordDetection.SpeakerEnrollment) -> Swift.String
+}
+public enum SVSpeakerSet {
+  public static let defaultSpeakerId: Swift.String
+  public static func loadEnrollment(jsonOrPath: Swift.String) throws -> KeyWordDetection.SpeakerEnrollment
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func incompatibility(_ e: KeyWordDetection.SpeakerEnrollment, base: KeyWordDetection.SpeakerVerificationConfig, baseDim: Swift.Int) -> Swift.String?
+  #endif
+  public static func upsert(_ list: [KeyWordDetection.SVSpeaker], _ s: KeyWordDetection.SVSpeaker) -> (list: [KeyWordDetection.SVSpeaker], removed: [Swift.String])
+  public static func build(_ items: [KeyWordDetection.SVSpeaker]) -> (list: [KeyWordDetection.SVSpeaker], removed: [Swift.String])
+}
+public struct SVPendingInfo {
+  public let bufferedSamples: Swift.Int
+  public let bufferedSeconds: Swift.Float
+  public let neededSeconds: Swift.Float
+}
+public struct SpeakerVerificationResult {
+  public let scoreBest: Swift.Float
+  public let scoreMean: Swift.Float
+  public let scoreWorst: Swift.Float
+  public let scoreBestRaw: Swift.Float
+  public let scoreBestMeancombo: Swift.Float
+  public let bestKind: Swift.String
+  public let bestId: Swift.String
+  public let isMatch: Swift.Bool
+  public let speakerId: Swift.String?
+  public let speakerScores: [Swift.String : Swift.Float]
+  public let embeddingDim: Swift.Int
+  public let usedSeconds: Swift.Float
+  public let ortRunMs: Swift.Double
+  public let featureMs: Swift.Double
+  public let totalMs: Swift.Double
+}
+public enum SpeakerVerificationOutput {
+  case pending(KeyWordDetection.SVPendingInfo)
+  case result(KeyWordDetection.SpeakerVerificationResult)
+}
+public enum SpeakerVerificationError : Swift.Error, Swift.CustomStringConvertible {
+  case invalidFrameSize(expected: Swift.Int, got: Swift.Int)
+  case enrollmentMissing
+  case emptyAudio
+  case onnx(Swift.String)
+  case feature(Swift.String)
+  public var description: Swift.String {
+    get
+  }
+}
+@objc @objcMembers final public class SpeakerVerificationEngine : ObjectiveC.NSObject {
+  final public let config: KeyWordDetection.SpeakerVerificationConfig
+  final public let logger: any KeyWordDetection.SVLogger
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(config: KeyWordDetection.SpeakerVerificationConfig, logger: (any KeyWordDetection.SVLogger)? = nil) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setEnrollment(_ enrollment: KeyWordDetection.SpeakerEnrollment?)
+  #endif
+  @objc final public func runOnboardingParityProbe()
+  final public func setSpeakers(_ list: [KeyWordDetection.SVSpeaker])
+  final public func currentSpeakers() -> [KeyWordDetection.SVSpeaker]
+  @objc final public func resetStreamingState()
+  final public func processFrame(frame: [Swift.Float]) throws -> KeyWordDetection.SpeakerVerificationOutput
+  final public func verifyWavFileStreaming(path: Swift.String, resetState: Swift.Bool = true) throws -> KeyWordDetection.SpeakerVerificationResult
+  @objc deinit
+}
+@objc @objcMembers final public class SpeakerVerificationMicController : ObjectiveC.NSObject {
+  @objc weak final public var delegate: (any KeyWordDetection.SpeakerVerificationNativeDelegate)?
+  public init(config: KeyWordDetection.SpeakerVerificationConfig) throws
+  @objc final public func beginOnboarding(enrollmentId: Swift.String, targetEmbeddingCount: Swift.Int = 3, reset: Swift.Bool = true) throws
+  @objc final public func getNextEmbeddingFromMic() throws
+  @objc final public func finalizeOnboardingNow() throws
+  @objc final public func setEnrollmentJson(_ enrollmentJson: Swift.String) throws
+  @objc final public func startVerifyFromMic(resetState: Swift.Bool = true) throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(startEndlessVerifyFromMicWithHopSeconds:stopOnMatch:error:) final public func startEndlessVerifyFromMicWithHopSeconds(_ hopSeconds: Foundation.NSNumber, stopOnMatch: Swift.Bool, error outError: Foundation.NSErrorPointer) -> Swift.Bool
+  #endif
+  @objc final public func startEndlessVerifyFromMic(hopSeconds: Swift.Float = 0.5, stopOnMatch: Swift.Bool = false, resetState: Swift.Bool = true) throws
+  @objc final public func stop()
+  @objc deinit
+}
+final public class SpeakerEnrollmentBuilder {
+  final public var targetEmbeddingCount: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(config: KeyWordDetection.SpeakerVerificationConfig, enrollmentId: Swift.String, logger: (any KeyWordDetection.SVLogger)? = nil) throws
+  #endif
+  final public func armForNextEmbedding(resetBuffer: Swift.Bool = true)
+  final public func debugState() -> (armed: Swift.Bool, buffered: Swift.Int, needed: Swift.Int, collected: Swift.Int, windows: Swift.Int)
+  final public func disarm()
+  final public func reset()
+  final public func processEnrollmentFrame(_ frame: [Swift.Float]) throws
+  final public func isReadyToFinalize() -> Swift.Bool
+  final public func finalizeEnrollment() throws -> KeyWordDetection.SpeakerEnrollment
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(SpeakerVerificationRNFacade) final public class SpeakerVerificationRNFacade : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(createEngineWithModelPath:enrollmentJsonPath:options:error:) public static func createEngine(modelPath: Swift.String, enrollmentJsonPath: Swift.String, options: [Swift.String : Any], error outError: Foundation.NSErrorPointer) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(verifyWavWithEngine:wavPath:reset:error:) public static func verifyWav(engine: Any, wavPath: Swift.String, reset: Swift.Bool, error outError: Foundation.NSErrorPointer) -> [Swift.String : Any]?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KeyWordDetection.SpeakerVerificationRNFacade {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(createMicControllerWithConfigJson:error:) public static func createMicController(configJson: Swift.String, error outError: Foundation.NSErrorPointer) -> Any?
+  #endif
+}
+extension KeyWordDetection.SpeakerEnrollmentBuilder {
+  final public func processEnrollmentFrameDidCollect(_ frame: [Swift.Float]) throws -> Swift.Bool
+  final public func collectedCount() -> Swift.Int
+  final public func collectedWindowCount() -> Swift.Int
+}
+public class AVAudioWrapperBuffer {
+  public init(size: Swift.Int)
+  public func write(samples: [Swift.Float]) -> Swift.Int16
+  public func read(count: Swift.Int) -> [Swift.Float]
+  public func availableSamples() -> Swift.Int
+  @objc deinit
+}
+public class AVAudioWrapper {
+  public static let instance: KeyWordDetection.AVAudioWrapper
+  public var preferOnDeviceMicInCarPlay: Swift.Bool
+  public var useOSDefaultSamplingRate: Swift.Bool
+  @discardableResult
+  public func beginWakewordAECForTTS() -> Swift.Bool
+  public func endWakewordAECForTTS()
+  public func refreshWakewordAECPreferenceFromConfig()
+  public func wakewordAECSnapshot() -> [Swift.String : Any]
+  public func ensureCaptureRunningAfterDetectionUnpause() -> Swift.Bool
+  public var isRecording: Swift.Bool {
+    get
+  }
+  public var isSessionPaused: Swift.Bool {
+    get
+  }
+  public var isLightPaused: Swift.Bool {
+    get
+  }
+  public func setLightPause(_ paused: Swift.Bool)
+  public func applyRoutingConfigAfterJSONChange()
+  @discardableResult
+  public func beginExternalCapture() -> Swift.Bool
+  public func feedExternalCapture(_ samples: Swift.UnsafePointer<Swift.Float>, count: Swift.Int, sampleRate: Swift.Double)
+  public func endExternalCapture()
+  public func quiesceForExternalAudioSessionCycle() -> Swift.Bool
+  public func resumeAfterExternalAudioSessionCycle() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var frameLength: Swift.UInt32? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var sampleRate: Swift.UInt32? {
+    get
+  }
+  #endif
+  public var numFrameListeners: Swift.Int {
+    get
+  }
+  public func setSessionOptions(sessionOptions: AVFAudio.AVAudioSession.CategoryOptions)
+  public init()
+  @objc deinit
+  public static var hasRecordAudioPermission: Swift.Bool {
+    get
+  }
+  public static func requestRecordAudioPermission(_ response: @escaping (Swift.Bool) -> Swift.Void)
+  public func addFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
+  public func addFrameListeners(_ listeners: [KeyWordDetection.AVAudioWrapperFrameListener])
+  public func removeFrameListener(_ listener: KeyWordDetection.AVAudioWrapperFrameListener)
+  public func removeFrameListeners(_ listeners: [KeyWordDetection.AVAudioWrapperFrameListener])
+  public func clearFrameListeners()
+  public func startAfterUnDucking()
+  public func start(frameLength: Swift.UInt32, sampleRate: Swift.UInt32, noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true)
+  public func start_org(frameLength: Swift.UInt32, sampleRate: Swift.UInt32, noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true)
+  public func stop() throws
+  public func pauseSession() -> Swift.Bool
+  public func resumeSession() -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class GlobalVariables : ObjectiveC.NSObject {
+  @objc public static let shared: KeyWordDetection.GlobalVariables
+  @objc public var keyWordsDetectionInstance: KeyWordDetection.KeyWordsDetection?
+  @objc public var modelName: Swift.String?
+  @objc public var threshold: Swift.Float
+  @objc public var bufferCnt: Swift.Int
+  @objc deinit
+}
+@objc public protocol KeywordDetectionRNDelegate {
+  @objc func KeywordDetectionDidDetectEvent(_ eventInfo: [Swift.String : Any])
+}
+@objc public class KeyWordsDetection : ObjectiveC.NSObject {
+  @objc public static func beginWakeWordDuringTTS(threshold: Swift.Float, bufferCnt: Swift.Int) -> Swift.Bool
+  @objc public static func endWakeWordDuringTTS()
+  @objc weak public var delegate: (any KeyWordDetection.KeywordDetectionRNDelegate)?
+  public var eventSink: (([Swift.String : Any]) -> Swift.Void)?
+  @objc convenience public init(modelPath: Swift.String, threshold: Swift.Float, bufferCnt: Swift.Int) throws
+  @objc convenience public init(modelPaths: [Swift.String], thresholds: [Foundation.NSNumber], bufferCnts: [Foundation.NSNumber], msBetweenCallback: [Foundation.NSNumber]) throws
+  @objc public init(modelPaths: [Swift.String], thresholds: [Swift.Float], bufferCnts: [Swift.Int], msBetweenCallback: [Swift.Int64], cancelEcho: Swift.Bool = false) throws
+  @objc public func replaceKeywordDetectionModel(modelPath: Swift.String, threshold: Swift.Float, bufferCnt: Swift.Int) throws
+  @objc public func replaceKeywordDetectionModels(modelPaths: [Swift.String], thresholds: [Swift.Float], bufferCnts: [Swift.Int], msBetweenCallback: [Swift.Int64]) throws
+  @objc public func getKeywordDetectionModel() -> Swift.String
+  @objc(setDetectionAudioRecording:) public func setDetectionAudioRecording(_ enabled: Swift.Bool)
+  @objc public func isDetectionAudioRecordingEnabled() -> Swift.Bool
+  @objc public func getRecordingWav() -> Swift.String
+  @objc public func setKeywordDetectionLicense(licenseKey: Swift.String) -> Swift.Bool
+  @objc public func setLicense(licenseKey: Swift.String) -> Swift.Bool
+  @objc public func callBack(frame: [Swift.Float])
+  @objc public func addSpeaker(id: Swift.String, jsonOrPath: Swift.String) throws
+  @objc public func setSpeakers(_ speakers: [[Swift.String : Swift.String]]) throws
+  @discardableResult
+  @objc public func removeSpeaker(id: Swift.String) -> Swift.Bool
+  @objc public func getSpeakerIds() -> [Swift.String]
+  @objc public func startListening(noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(startListeningWithSpeakerVerificationEnrollmentJsonOrPath:noExternalActivation:duckOthers:mixWithOthers:defaultToSpeaker:) public func startListening(speakerVerificationEnrollmentJsonOrPath: Swift.String?, noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true) -> Swift.Bool
+  #endif
+  @objc(startListeningWithSpeakers:noExternalActivation:duckOthers:mixWithOthers:defaultToSpeaker:) public func startListening(speakers: [[Swift.String : Swift.String]], noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(startListeningWithSpeakerVerificationEnrollmentJsonOrPath:speakerId:noExternalActivation:duckOthers:mixWithOthers:defaultToSpeaker:) public func startListening(speakerVerificationEnrollmentJsonOrPath: Swift.String?, speakerId: Swift.String, noExternalActivation: Swift.Bool = true, duckOthers: Swift.Bool = false, mixWithOthers: Swift.Bool = true, defaultToSpeaker: Swift.Bool = true) -> Swift.Bool
+  #endif
+  @objc public func stopListening()
+  @objc public func pauseDetection(stopMic: Swift.Bool = false)
+  @objc public func unPauseDetection()
+  @objc public func getVoiceProps() -> [Swift.String : Any]
+  @objc public func startSilentListening() -> Swift.Bool
+  @objc public func startVADListening() -> Swift.Bool
+  @objc public func setVADParams(threshold: Swift.Float, msWindow: Swift.Int) throws
+  @objc public func stopSilentListening()
+  @objc public func stopVADListening()
+  @objc deinit
+}
+public typealias EngineSchedule = (_ url: Foundation.URL, _ onDone: @escaping () -> Swift.Void) -> Swift.Bool
+public enum AudioPlaybackHook {
+  public static var engineScheduleFile: KeyWordDetection.EngineSchedule?
+}
+@_inheritsConvenienceInitializers @objc public class AudioSessionAndDuckingManager : ObjectiveC.NSObject {
+  @objc public static let shared: KeyWordDetection.AudioSessionAndDuckingManager
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getWakewordAudioRoutingConfigJSONString() -> Swift.String?
+  #endif
+  @objc public func setWakewordAudioRoutingConfigFromJSONString(_ jsonConfig: Swift.String)
+  @objc public func beginWakeWordDuringTTS() -> Swift.Bool
+  @objc public func isWakewordListeningForLegacyAEC() -> Swift.Bool
+  @objc public func beginWakewordExternalCapture() -> Swift.Bool
+  @objc public func feedWakewordExternalCapture(_ buffer: AVFAudio.AVAudioPCMBuffer)
+  @objc public func endWakewordExternalCapture()
+  @objc public func endWakeWordDuringTTS()
+  @objc public func prepareWakewordForExternalAudioSessionCycle() -> Swift.Bool
+  @objc public func resumeWakewordAfterExternalAudioSessionCycle()
+  @objc public func getWakewordAudioSessionSnapshotJSONString() -> Swift.String
+  @objc public func initAudioSessAndDuckManage()
+  @objc public func enableRadioInCar()
+  @objc public func enableAggressiveDucking()
+  @objc public func disableDucking()
+  @objc public func restartListeningAfterDucking()
+  @objc public func disableDuckingAndCleanup()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LicenseManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension KeyWordDetection.SVLogLevel : Swift.Equatable {}
+extension KeyWordDetection.SVLogLevel : Swift.Hashable {}
+extension KeyWordDetection.SVLogLevel : Swift.RawRepresentable {}
