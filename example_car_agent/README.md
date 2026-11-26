@@ -95,3 +95,9 @@ the other apps.
 - Voice cloning (the React Native app's "clone a voice" screen).
 - Remote updates to the language-pack list (the React Native app verifies a signed manifest).
 - A remote assistant for general questions. As in the other apps' default, the agent says it isn't set up in this demo.
+
+## License
+
+The source code is MIT (see [LICENSE](../LICENSE)). The models (the wake word, speaker verification, the voices and the DaVoice
+Automotive Agent model), the DaVoice frameworks in `../libs` and the DaVoice logo and images are not covered by the MIT license: see
+[MODEL_NOTICES.md](../MODEL_NOTICES.md) and [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md).
