@@ -5,7 +5,7 @@ import Foundation
 enum VoiceConfig {
     /// Temporary DaVoice demo license, valid for every DaVoice library (wake word, speaker verification, STT/TTS, local LLM). Contact
     /// info@davoice.io for your own key.
-    static let davoiceLicenseKey = "MTc5ODc1NDQwMDAwMA==-7KCvF57wMK128lYxCF+vaGra6UgeDY6QF7qnDVgGHhw="
+    static let davoiceLicenseKey = "DV2.eyJ2IjoyLCJraWQiOiJrMSIsImlkIjoiNzkzM2Y0MjcwMTMzIiwiY3VzdCI6IkRhVm9pY2UgZGVtbyBhcHAgSU9TX05hdGl2ZV9EYXZvaWNlL2V4YW1wbGVfY2FyX2FnZW50IChleGFjdCBhcHAgaWRzIG9ubHkpIiwiaWF0IjoxNzk1NzExMDc2MjMzLCJleHAiOjE4MzAyOTc2MDAwMDAsInByb2QiOlsiKiJdLCJwbGF0IjpbImlvcyJdLCJhcHBzIjp7ImlvcyI6WyJpby5kYXZvaWNlLmNhcmFnZW50LmlvcyJdfSwibW9kZWxzIjpbInR0cy8qIiwid3cvKiJdfQ.0n6A9-WCPm1hlls6XV49fHvnCHeGrJgLfqD7jwJQ-Go53i3QR_-eJejxSBieTlqkrIMsBkBKK6_CbhDce1wSlQ"
 
     struct WakeWordModel {
         let fileName: String
